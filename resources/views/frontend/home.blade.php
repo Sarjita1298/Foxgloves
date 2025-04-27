@@ -31,54 +31,312 @@
       </div>
   
       <!-- 👇 Carousel Indicators -->
-       <ol class="carousel-indicators">
+       {{-- <ol class="carousel-indicators">
         <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
         <li data-target="#customCarousel1" data-slide-to="1"></li>
         <li data-target="#customCarousel1" data-slide-to="2"></li>
-      </ol>
+      </ol> --}}
     </div>
   </section>
   
   <!-- slider section end -->
 
+ <!-- service section -->
+ <section class="service_section layout_padding">
+    <div class="container ">
+      <div class="heading_container">
+        <h2>
+          Our Services
+        </h2>
+        <p>
+          • Facility Management Services
+          • Mechanized Housekeeping Services for:
+              - Pharmaceutical & Chemical Industries
+              - Engineering Units
+              - Railway Stations
+              - Hospitals
+              - Shopping Malls
+              - Airports
+          • Security Services (Residential, Industrial & Corporate)
+          • Catering & Canteen Services (Institutions, Corporates, Events, Guest Houses)
+          • Guest House Management Services
+          • Event Management Security
+          • Courier & Escort Services
+          • Supply, Installation & Monitoring of Security Gadgets
+          • Pre-employment / Post-employment Verification
+          • Temporary Staffing Solutions
+          • Permanent Staffing Solutions
+          • Turnkey Base Project Execution (Infrastructure, Security, Maintenance)
+          • Survey Services (Facility Needs, Compliance, Staffing, etc.)
+                  </p>
+      </div>    
   
-
-<!-- service section -->
-<section class="service_section layout_padding">
-  <div class="container">
-    <div class="heading_container">
-      <h2>Our Services</h2>
-      <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
-    <div class="row">
-      @foreach([
-        ['icon' => 's1.png', 'title' => 'Mechanized...'],
-        ['icon' => 's2.png', 'title' => 'Security Serv...'],
-        ['icon' => 's3.png', 'title' => ' Catering & Can...'],
-        ['icon' => 's4.png', 'title' => ' Guest House ...']
-      ] as $service)
-      <div class="col-md-6 col-lg-3">
-        <div class="box">
-          <div class="img-box">
-            <img src="{{ asset('frontend/images/' . $service['icon']) }}" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>{{ $service['title'] }}</h5>
-            {{-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p> --}}
-            <a href="">
-              <span>Read More</span>
-              <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-            </a>
+ 
+  <div class="service-carousel owl-carousel">
+        <div class="col-md-2 col-lg-10">
+          <div class="box">
+            <div class="img-box">
+              <img src="frontend/images/hotel.png" alt="Facility Management Service">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Facility Man...
+              </h5>
+              <a href="">
+                <span>
+                  Read More
+                </span>
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
           </div>
         </div>
+        <div class="col-md-2 col-lg-10">
+          <div class="box">
+            <div class="img-box">
+              <img src="frontend/images/powerplants.png" alt="Mechanized Housekeeping for Industries">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Mechanized...            
+              </h5>
+              <a href="">
+                <span>
+                  Read More
+                </span>
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 col-lg-10">
+          <div class="box">
+            <div class="img-box">
+              <img src="frontend/images/retail.png" alt="Security Services for Commercial Premises">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Security Serv...
+              </h5>             
+              <a href="">
+                <span>
+                  Read More
+                </span>
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 col-lg-10">
+          <div class="box">
+            <div class="img-box">
+              <img src="frontend/images/staff.png" alt="Catering and Canteen Services">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Catering & Can...
+              </h5>
+              <a href="">
+                <span>
+                  Read More
+                </span>
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 col-lg-10">
+          <div class="box">
+            <div class="img-box">
+              <img src="frontend/images/guesthouse.png" alt="Guest House Management">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Guest House ...
+              </h5>
+              <a href="">
+                <span>
+                  Read More
+                </span>
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 col-lg-10">
+          <div class="box">
+            <div class="img-box">
+              <img src="frontend/images/hotel4.png" alt="Event Management Security">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Event Manage... 
+              </h5>     
+              <a href="">
+                <span>
+                  Read More
+                </span>
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 col-lg-10">
+          <div class="box">
+            <div class="img-box">
+              <img src="frontend/images/powerplants1.png"  alt="Courier and Escort Services">
+            </div>
+            <div class="detail-box">
+              <h5>
+                 Courier & Es...       
+              </h5>
+              <a href="">
+                <span>
+                  Read More
+                </span>
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 col-lg-10">
+          <div class="box">
+            <div class="img-box">
+              <img src="frontend/images/railways.png" alt="Security Gadget Installation">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Supply, Instal...
+              </h5>
+              <a href="">
+                <span>
+                  Read More
+                </span>
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 col-lg-10">
+          <div class="box">
+            <div class="img-box">
+              <img src="frontend/images/retail.png" alt="Employment Verification Services">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Pre-employ... 
+              </h5>
+              <a href="">
+                <span>
+                  Read More
+                </span>
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 col-lg-10">
+          <div class="box">
+            <div class="img-box">
+              <img src="frontend/images/retail2.png" alt="Temporary Staffing Solutions">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Temporary Staf...
+              </h5>
+              <a href="">
+                <span>
+                  Read More
+                </span>
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 col-lg-10">
+          <div class="box">
+            <div class="img-box">
+              <img src="frontend/images/staff.png" alt="Permanent Staffing Solutions">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Permanent Staf...
+              </h5>
+              <a href="">
+                <span>
+                  Read More
+                </span>
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 col-lg-10">
+          <div class="box">
+            <div class="img-box">
+              <img src="frontend/images/staff3.png" alt="Turnkey Project Execution">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Turnkey Base...
+              </h5>
+              <a href="">
+                <span>
+                  Read More
+                </span>
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 col-lg-10">
+          <div class="box">
+            <div class="img-box">
+              <img src="frontend/images/staff1.png" alt="Survey Services and Compliance">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Survey Servi...     
+              </h5>
+              <a href="">
+                <span>
+                  Read More
+                </span>
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+           
+          </div>
+        </div>
+      
       </div>
-      @endforeach
+     
+      <div class="btn-box">
+        <a href="">
+          View More
+        </a>
+      </div>
     </div>
-    <div class="btn-box">
-      <a href="">View More</a>
-    </div>
-  </div>
-</section>
+  </section>
+  <!-- end service section -->
+
+ 
+  
+
+<script>
+  $(document).ready(function(){
+    $('.owl-carousel').owlCarousel({
+      loop:true,
+      margin:10,
+      nav:true,
+      items:1, // or change to items:3 for multi-slide
+      autoplay:true,
+      autoplayTimeout:3000,
+      autoplayHoverPause:true
+    });
+  });
+</script>
+
 <!-- end service section -->
 
 <!-- about section -->

@@ -38,7 +38,7 @@
         <div class="col-md-2 col-lg-10">
           <div class="box">
             <div class="img-box">
-              <img src="frontend/images/hotel.png" alt="">
+              <img src="frontend/images/hotel.png" alt="Facility Management Service">
             </div>
             <div class="detail-box">
               <h5>
@@ -56,7 +56,7 @@
         <div class="col-md-2 col-lg-10">
           <div class="box">
             <div class="img-box">
-              <img src="frontend/images/powerplants.png" alt="">
+              <img src="frontend/images/powerplants.png" alt="Mechanized Housekeeping for Industries">
             </div>
             <div class="detail-box">
               <h5>
@@ -74,7 +74,7 @@
         <div class="col-md-2 col-lg-10">
           <div class="box">
             <div class="img-box">
-              <img src="frontend/images/retail.png" alt="">
+              <img src="frontend/images/retail.png" alt="Security Services for Commercial Premises">
             </div>
             <div class="detail-box">
               <h5>
@@ -92,7 +92,7 @@
         <div class="col-md-2 col-lg-10">
           <div class="box">
             <div class="img-box">
-              <img src="frontend/images/staff.png" alt="">
+              <img src="frontend/images/staff.png" alt="Catering and Canteen Services">
             </div>
             <div class="detail-box">
               <h5>
@@ -110,7 +110,7 @@
         <div class="col-md-2 col-lg-10">
           <div class="box">
             <div class="img-box">
-              <img src="frontend/images/guesthouse.png" alt="">
+              <img src="frontend/images/guesthouse.png" alt="Guest House Management">
             </div>
             <div class="detail-box">
               <h5>
@@ -128,7 +128,7 @@
         <div class="col-md-2 col-lg-10">
           <div class="box">
             <div class="img-box">
-              <img src="frontend/images/hotel4.png" alt="">
+              <img src="frontend/images/hotel4.png" alt="Event Management Security">
             </div>
             <div class="detail-box">
               <h5>
@@ -146,7 +146,7 @@
         <div class="col-md-2 col-lg-10">
           <div class="box">
             <div class="img-box">
-              <img src="frontend/images/powerplants1.png" alt="">
+              <img src="frontend/images/powerplants1.png"  alt="Courier and Escort Services">
             </div>
             <div class="detail-box">
               <h5>
@@ -164,7 +164,7 @@
         <div class="col-md-2 col-lg-10">
           <div class="box">
             <div class="img-box">
-              <img src="frontend/images/railways.png" alt="">
+              <img src="frontend/images/railways.png" alt="Security Gadget Installation">
             </div>
             <div class="detail-box">
               <h5>
@@ -182,7 +182,7 @@
         <div class="col-md-2 col-lg-10">
           <div class="box">
             <div class="img-box">
-              <img src="frontend/images/retail.png" alt="">
+              <img src="frontend/images/retail.png" alt="Employment Verification Services">
             </div>
             <div class="detail-box">
               <h5>
@@ -200,7 +200,7 @@
         <div class="col-md-2 col-lg-10">
           <div class="box">
             <div class="img-box">
-              <img src="frontend/images/retail2.png" alt="">
+              <img src="frontend/images/retail2.png" alt="Temporary Staffing Solutions">
             </div>
             <div class="detail-box">
               <h5>
@@ -218,7 +218,7 @@
         <div class="col-md-2 col-lg-10">
           <div class="box">
             <div class="img-box">
-              <img src="frontend/images/staff.png" alt="">
+              <img src="frontend/images/staff.png" alt="Permanent Staffing Solutions">
             </div>
             <div class="detail-box">
               <h5>
@@ -236,7 +236,7 @@
         <div class="col-md-2 col-lg-10">
           <div class="box">
             <div class="img-box">
-              <img src="frontend/images/staff3.png" alt="">
+              <img src="frontend/images/staff3.png" alt="Turnkey Project Execution">
             </div>
             <div class="detail-box">
               <h5>
@@ -254,7 +254,7 @@
         <div class="col-md-2 col-lg-10">
           <div class="box">
             <div class="img-box">
-              <img src="frontend/images/staff1.png" alt="">
+              <img src="frontend/images/staff1.png" alt="Survey Services and Compliance">
             </div>
             <div class="detail-box">
               <h5>
@@ -281,23 +281,31 @@
     </div>
   </section>
   <!-- end service section -->
- 
+  <section class="industries-section" style="background: url('{{ asset('frontend/images/guest.png') }}') no-repeat center center; background-size: cover; ">
+    <div class="industries-box">
+        <h2>Industries We Serve</h2>
+        <ul class="industries-list">
+          
+            <li>Automobiles</li>
+            <li>Manufacturing Units</li>
+            <li>Engineering & Infrastructure</li>
+            <li>IT & ITES</li>
+            <li>Telecom</li>
+            <li>Educational Institutions</li>
+            <li>Hospitality (Hotels & Resorts)</li>
+            <li>Hospitals & Clinics</li>
+            <li>Power Plants & Mines</li>
+            <li>Government & Public Sector</li>
+            <li>Airports</li>
+            <li>Shopping Malls</li>
+            <li>Railways</li>
+            <li>Guest Houses</li>
+            <li>Retail & Multiplex</li>
+            <li>... and more.</li>
+        </ul>
+    </div>
+  </section>
   
   @endsection
   <!-- end service section -->
  
-  
-
-<script>
-  $(document).ready(function(){
-    $('.owl-carousel').owlCarousel({
-      loop:true,
-      margin:10,
-      nav:true,
-      items:1, // or change to items:3 for multi-slide
-      autoplay:true,
-      autoplayTimeout:3000,
-      autoplayHoverPause:true
-    });
-  });
-</script>

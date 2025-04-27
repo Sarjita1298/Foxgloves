@@ -2,12 +2,14 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\StateController;
+
 
 Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/index',[ HomeController::class, 'index'] )->name('index');
+Route::get('/home',[ HomeController::class, 'index'] )->name('home');
 Route::get('/about',[ HomeController::class, 'about'] )->name('about');
 Route::get('/service',[ HomeController::class, 'service'] )->name('service');
 Route::get('/contact',[ HomeController::class, 'contact'] )->name('contact');
@@ -20,5 +22,12 @@ Route::get('/our_mission',[ HomeController::class, 'our_mission'] )->name('our_m
 Route::get('/training_development',[ HomeController::class, 'training_development'] )->name('training_development');
 
 Route::get('/guest-catering-canteen',[ HomeController::class, 'guest_catering_canteen'] )->name('guest-catering-canteen');
+
 Route::get('/staff_turnkey',[ HomeController::class, 'staff_turnkey'] )->name('staff_turnkey');
 Route::get('/our_commitment',[ HomeController::class, 'our_commitment'] )->name('our_commitment');
+Route::get('/client_operation',[ HomeController::class, 'client_operation'] )->name('client_operation');
+
+// Route::get('/state', [HomeController::class, 'show'])->name('client_operational_reach');
+
+Route::get('/client_operational_reach', [StateController::class, 'index'])->name('client_operational_reach');
+Route::get('/state/{state}', [StateController::class, 'show'])->name('state.show');

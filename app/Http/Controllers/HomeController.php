@@ -46,6 +46,7 @@ class HomeController extends Controller
 
         return redirect()->route('index')->with('success', 'Your message has been sent successfully!');
     }
+
     public function store(Request $request)
     {
         $request->validate([
@@ -66,17 +67,53 @@ class HomeController extends Controller
     public function our_mission(){
         return view('frontend.our_mission');
     }
+
     public function training_development(){
         return view('frontend.training_dev');
     }
+
     public function guest_catering_canteen(){
         return view('frontend.guest_catering');
     }
+
     public function staff_turnkey(){
         return view('frontend.staff_turnkey');
     }
+    
     public function our_commitment(){
         return view('frontend.our_commitment');
     }
+
+    public function client_operation()
+{
+    $states = [
+        'MP' => 'Madhya Pradesh',
+        'CG' => 'Chhattisgarh',
+        'MH' => 'Maharashtra',
+        'DL' => 'Delhi',
+        'UT' => 'Uttarakhand',
+    ];
+
+    return view('frontend.client_&_operation', compact('states'));
 }
 
+public function show($state)
+{
+    $states = [
+        'MP' => 'Madhya Pradesh',
+        'CG' => 'Chhattisgarh',
+        'MH' => 'Maharashtra',
+        'DL' => 'Delhi',
+        'UT' => 'Uttarakhand',
+    ];
+
+    if (!array_key_exists($state, $states)) {
+        return redirect()->route('home')->with('error', 'State data not found.');
+    }
+
+    $stateName = $states[$state];
+
+    return view('client_&_operation', compact('stateName'));
+}
+
+}

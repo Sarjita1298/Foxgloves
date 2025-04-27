@@ -1,12 +1,12 @@
 <div class="footer_container">
     <!-- info section -->
 
-    <section class="info_section ">
+    <section class="info_section my-5">
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-lg-3 ">
             <div class="info_detail">
-              <a class="navbar-brand" href="{{ route('index') }}">
+              <a class="navbar-brand" href="{{ route('home') }}">
                 <span class="brand-title">
                   <span class="brand-fox">FOX</span><span class="brand-gloves">GLOVES</span>
                   <h6 class="brand-subtitle">MANIFOLD SERVICES & SECURITIES PVT. LTD.</h6>
@@ -24,7 +24,7 @@
                 Links
               </h4>
               <div class="info_links">
-                <a class="" href="index">
+                <a class="" href="home">
                   Home
                 </a>
                 <a class="" href="about">
@@ -113,16 +113,10 @@
           &copy; <span id="displayYear"></span> All Rights Reserved By
           <a href="https://alinasoftwares.in/" target="_blank" title="Alina Softwares">Alina Softwares</a>        </p>
       </div>
-      {{-- <div class="col-6 col-sm-6 col-md-6 col-lg-1 col-xl-1 return_top mx-auto">
-        <div class="footer__copyright__inner text-center">
-          <a href="#top">
-            <img src="frontend/images/slider-img.png" alt="Up Arrow" class="img-fluid arrow">
-          </a>
-        </div>
-      </div> --}}
+     
       <div class="elementor-widget-container">
         <div class="elementor-icon-wrapper">
-          <a href="#headertop" class="elementoricon">
+          <a href="" class="elementoricon">
             <i aria-hidden="true" class="far fa-arrow-alt-circle-up"></i>
           </a>
         </div>

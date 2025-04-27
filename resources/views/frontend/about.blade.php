@@ -20,7 +20,7 @@
               civil engineering, and IT systems, our leadership drives us towards sustainable, tech-enabled,
               and people-centric operations.
             </p>
-            <a href="index">
+            <a href="about">
               Read More
             </a>
           </div>

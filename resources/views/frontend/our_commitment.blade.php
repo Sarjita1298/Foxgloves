@@ -1,7 +1,8 @@
 @extends('frontend.master')
 
 @section('content')
-<section class="commitment-section py-5 bg-light">
+<section class="commitment-section py-5  my-5 bg-light" style="background-image: url('{{ asset('frontend/images/govt&public.png') }}'); background-size: cover; background-position: center; background-repeat: no-repeat; height: 500px; padding: 50px 20px; color: white;">
+  
   <div class="container">
     <div class="row align-items-center">
       <!-- IMAGE COLUMN -->
@@ -19,7 +20,7 @@
             At FoxGloves Manifold Services & Securities Pvt. Ltd., quality is not just a goal — it’s our foundation. We strictly adhere to 
             <strong>ISO 9001:2015 certified protocols</strong>. . Each project is subjected to <strong> internal audits, client feedback loops, and surprise quality inspections</strong> to ensure continuous improvement and adherence to SLAs.
           </p>
-          <p class="text-muted fs-6">
+          <p class="text-warning fs-6">
             Every project undergoes structured internal audits, robust client feedback mechanisms, and unannounced quality inspections to ensure continual improvement. This disciplined approach helps us exceed expectations while maintaining adherence to SLAs (Service Level Agreements).
           </p>
         </div>

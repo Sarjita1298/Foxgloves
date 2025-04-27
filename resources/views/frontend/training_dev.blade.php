@@ -1,16 +1,17 @@
 @extends('frontend.master')
 
 @section('content')
-<section class="about-section py-5 position-relative" style="background-image: url('{{ asset('frontend/images/training_&_development.png') }}'); 
+<section class="about-section py-5 my-5 position-relative" style="background-image: url('{{ asset('frontend/images/training_&_development.png') }}'); 
 background-size: cover; background-position: center; margin-bottom: 80px;">
-    <div class="overlay" style="position:absolute;my-5; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.6); z-index: 1;"></div>
+    <div class="overlay"></div>
 
-    <div class="container position-relative" style="z-index: 2;">
+    <div class="container position-relative">
         <div class="row align-items-center">
 
             <div class="col-md-6 text-start mb-4 mb-md-0">
                 <h1 id="headingText" class="fw-bold">
-                    TRAINING & DEVELOPMENT
+                    TRAINING & DEVELOP
+                    -MENT
                 </h1>
             </div>
 
