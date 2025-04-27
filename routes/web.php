@@ -27,7 +27,4 @@ Route::get('/staff_turnkey',[ HomeController::class, 'staff_turnkey'] )->name('s
 Route::get('/our_commitment',[ HomeController::class, 'our_commitment'] )->name('our_commitment');
 Route::get('/client_operation',[ HomeController::class, 'client_operation'] )->name('client_operation');
 
-// Route::get('/state', [HomeController::class, 'show'])->name('client_operational_reach');
 
-Route::get('/client_operational_reach', [StateController::class, 'index'])->name('client_operational_reach');
-Route::get('/state/{state}', [StateController::class, 'show'])->name('state.show');
