@@ -4,37 +4,17 @@
 
 
  <!-- service section -->
- <section class="service_section layout_padding">
-    <div class="container ">
+ <section class="service_section layout_padding" style="background-image: url('{{ asset('frontend/images/.png') }}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+  <div class="container ">
       <div class="heading_container">
         <h2>
           Our Services
         </h2>
-        <p>
-          • Facility Management Services
-          • Mechanized Housekeeping Services for:
-              - Pharmaceutical & Chemical Industries
-              - Engineering Units
-              - Railway Stations
-              - Hospitals
-              - Shopping Malls
-              - Airports
-          • Security Services (Residential, Industrial & Corporate)
-          • Catering & Canteen Services (Institutions, Corporates, Events, Guest Houses)
-          • Guest House Management Services
-          • Event Management Security
-          • Courier & Escort Services
-          • Supply, Installation & Monitoring of Security Gadgets
-          • Pre-employment / Post-employment Verification
-          • Temporary Staffing Solutions
-          • Permanent Staffing Solutions
-          • Turnkey Base Project Execution (Infrastructure, Security, Maintenance)
-          • Survey Services (Facility Needs, Compliance, Staffing, etc.)
-                  </p>
+       
       </div>    
   
  
-  <div class="service-carousel owl-carousel">
+  <div class="service ">
         <div class="col-md-2 col-lg-10">
           <div class="box">
             <div class="img-box">
@@ -42,14 +22,9 @@
             </div>
             <div class="detail-box">
               <h5>
-                Facility Man...
+                Facility Management Services
               </h5>
-              <a href="">
-                <span>
-                  Read More
-                </span>
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
+           
             </div>
           </div>
         </div>
@@ -60,14 +35,16 @@
             </div>
             <div class="detail-box">
               <h5>
-                Mechanized...            
+                Mechanized Housekeeping Services for:
+                - Pharmaceutical & Chemical Industries
+                - Engineering Units
+                - Railway Stations
+                - Hospitals
+                - Shopping Malls
+                - Airports
+                        
               </h5>
-              <a href="">
-                <span>
-                  Read More
-                </span>
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
+             
             </div>
           </div>
         </div>
@@ -78,14 +55,9 @@
             </div>
             <div class="detail-box">
               <h5>
-                Security Serv...
+                Security Services (Residential, Industrial & Corporate)
               </h5>             
-              <a href="">
-                <span>
-                  Read More
-                </span>
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
+              
             </div>
           </div>
         </div>
@@ -96,12 +68,9 @@
             </div>
             <div class="detail-box">
               <h5>
-                Catering & Can...
+                Catering & Canteen Services (Institutions, Corporates, Events, Guest Houses)
               </h5>
-              <a href="">
-                <span>
-                  Read More
-                </span>
+             
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
               </a>
             </div>
@@ -114,14 +83,9 @@
             </div>
             <div class="detail-box">
               <h5>
-                Guest House ...
+                Guest House Management Services
               </h5>
-              <a href="">
-                <span>
-                  Read More
-                </span>
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
+             
             </div>
           </div>
         </div>
@@ -132,14 +96,9 @@
             </div>
             <div class="detail-box">
               <h5>
-                Event Manage... 
+                Event Management Security
               </h5>     
-              <a href="">
-                <span>
-                  Read More
-                </span>
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
+            
             </div>
           </div>
         </div>
@@ -150,14 +109,9 @@
             </div>
             <div class="detail-box">
               <h5>
-                 Courier & Es...       
+              Courier & Escort Services      
               </h5>
-              <a href="">
-                <span>
-                  Read More
-                </span>
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
+            
             </div>
           </div>
         </div>
@@ -168,14 +122,9 @@
             </div>
             <div class="detail-box">
               <h5>
-                Supply, Instal...
+                Supply, Installation & Monitoring of Security Gadgets
               </h5>
-              <a href="">
-                <span>
-                  Read More
-                </span>
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
+            
             </div>
           </div>
         </div>
@@ -186,14 +135,9 @@
             </div>
             <div class="detail-box">
               <h5>
-                Pre-employ... 
+                Pre-employment / Post-employment Verification
               </h5>
-              <a href="">
-                <span>
-                  Read More
-                </span>
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
+             
             </div>
           </div>
         </div>
@@ -204,14 +148,9 @@
             </div>
             <div class="detail-box">
               <h5>
-                Temporary Staf...
+               Temporary Staffing Solutions
               </h5>
-              <a href="">
-                <span>
-                  Read More
-                </span>
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
+             
             </div>
           </div>
         </div>
@@ -222,14 +161,9 @@
             </div>
             <div class="detail-box">
               <h5>
-                Permanent Staf...
+                Permanent Staffing Solutions
               </h5>
-              <a href="">
-                <span>
-                  Read More
-                </span>
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
+              
             </div>
           </div>
         </div>
@@ -240,14 +174,8 @@
             </div>
             <div class="detail-box">
               <h5>
-                Turnkey Base...
+               Turnkey Base Project Execution (Infrastructure, Security, Maintenance)
               </h5>
-              <a href="">
-                <span>
-                  Read More
-                </span>
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
             </div>
           </div>
         </div>
@@ -258,14 +186,9 @@
             </div>
             <div class="detail-box">
               <h5>
-                Survey Servi...     
+                Survey Services (Facility Needs, Compliance, Staffing, etc.)    
               </h5>
-              <a href="">
-                <span>
-                  Read More
-                </span>
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
+             
             </div>
            
           </div>
@@ -273,13 +196,14 @@
       
       </div>
      
-      <div class="btn-box">
+      {{-- <div class="btn-box">
         <a href="">
           View More
         </a>
-      </div>
+      </div> --}}
     </div>
   </section>
+
   <!-- end service section -->
   <section class="industries-section" style="background: url('{{ asset('frontend/images/guest.png') }}') no-repeat center center; background-size: cover; ">
     <div class="industries-box">
@@ -308,4 +232,5 @@
   
   @endsection
   <!-- end service section -->
+ 
  
