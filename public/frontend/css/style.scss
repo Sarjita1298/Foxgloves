@@ -109,7 +109,7 @@ a:focus {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: $primary1;
+  background-color: #fff;
   border-radius: 0 0 350px 0;
 }
 
@@ -373,7 +373,7 @@ a:focus {
       position: absolute;
       right: -137.5px;
       bottom: -137.5px;
-      background-color: lighten($color: $primary1, $amount: 52);
+      background-color: lighten($color:#fff, $amount: 52);
       z-index: -1;
       border-radius: 100%;
       transition: all 0.3s;
@@ -409,7 +409,7 @@ a:focus {
     &:hover {
       &::before {
         transform: scale(5);
-        background-color: $primary1;
+        background-color: #fff;
       }
 
       color: $white;
@@ -426,7 +426,7 @@ a:focus {
     margin-top: 45px;
 
     a {
-      @include hero_btn($primary1, $white, 10px, 45px, 5px);
+      @include hero_btn(#fff, $white, 10px, 45px, 5px);
     }
   }
 }
@@ -435,7 +435,7 @@ a:focus {
 
 // about section
 .about_section {
-  background-color: $primary1;
+  background-color: #e4dada;
   color: $white;
   border-radius: 250px 0 250px 0;
 
@@ -504,7 +504,7 @@ a:focus {
       }
 
       a {
-        color: $primary1;
+        color: #f8842b;
       }
     }
   }
@@ -545,7 +545,7 @@ a:focus {
 
         h6 {
           margin-bottom: 0;
-          color: $primary1;
+          color:#f8842b;
           font-weight: normal;
           font-size: 15px;
           text-transform: uppercase;
@@ -563,7 +563,7 @@ a:focus {
 
     .detail-box {
       background-color: $white;
-      background-color: $primary1;
+      background-color: #f8842b;
       color: $white;
       border-radius: 15px;
       padding: 85px 45px 15px 45px;
@@ -577,7 +577,7 @@ a:focus {
     align-items: center;
 
     li {
-      background-color: $primary1;
+      background-color: #a5a5a5;
       width: 10px;
       height: 10px;
       border-radius: 100%;
@@ -611,7 +611,7 @@ a:focus {
     background-color: transparent;
     outline: none;
     color: $black;
-    border: 1px solid #a5a5a5;
+    border: 1px solid #e13d07;
 
     &::placeholder {
       color: #1c1b1b;
@@ -624,7 +624,7 @@ a:focus {
 
   button {
     @include main-font();
-    @include hero_btn($primary1, $white, 10px, 65px, 3px);
+    @include hero_btn($primary2, $white, 10px, 65px, 3px);
     color: #fff;
     margin-top: 10px;
   }
@@ -648,7 +648,7 @@ a:focus {
 // end contact section
 
 .footer_container {
-  background-color: $primary1;
+  background-color: $primary2;
   color: $white;
   border-radius: 350px 0 0 0;
   padding-top: 145px;

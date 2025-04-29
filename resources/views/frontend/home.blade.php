@@ -56,7 +56,7 @@
         <div class="col-md-2 col-lg-10">
           <div class="box">
             <div class="img-box">
-              <img src="frontend/images/hotel.png" alt="Facility Management Service">
+              <img src="frontend/images/newone.png" alt="Facility Management Service">
             </div>
             <div class="detail-box">
               <h5>
@@ -74,7 +74,7 @@
         <div class="col-md-2 col-lg-10">
           <div class="box">
             <div class="img-box">
-              <img src="frontend/images/powerplants.png" alt="Mechanized Housekeeping for Industries">
+              <img src="frontend/images/newone1.png" alt="Mechanized Housekeeping for Industries">
             </div>
             <div class="detail-box">
               <h5>
@@ -92,7 +92,7 @@
         <div class="col-md-2 col-lg-10">
           <div class="box">
             <div class="img-box">
-              <img src="frontend/images/retail.png" alt="Security Services for Commercial Premises">
+              <img src="frontend/images/newone2.png" alt="Security Services for Commercial Premises">
             </div>
             <div class="detail-box">
               <h5>
@@ -110,7 +110,7 @@
         <div class="col-md-2 col-lg-10">
           <div class="box">
             <div class="img-box">
-              <img src="frontend/images/staff.png" alt="Catering and Canteen Services">
+              <img src="frontend/images/newone3.png" alt="Catering and Canteen Services">
             </div>
             <div class="detail-box">
               <h5>
@@ -128,7 +128,7 @@
         <div class="col-md-2 col-lg-10">
           <div class="box">
             <div class="img-box">
-              <img src="frontend/images/guesthouse.png" alt="Guest House Management">
+              <img src="frontend/images/newone4.png" alt="Guest House Management">
             </div>
             <div class="detail-box">
               <h5>
@@ -146,7 +146,7 @@
         <div class="col-md-2 col-lg-10">
           <div class="box">
             <div class="img-box">
-              <img src="frontend/images/hotel4.png" alt="Event Management Security">
+              <img src="frontend/images/newone5.png" alt="Event Management Security">
             </div>
             <div class="detail-box">
               <h5>
@@ -164,7 +164,7 @@
         <div class="col-md-2 col-lg-10">
           <div class="box">
             <div class="img-box">
-              <img src="frontend/images/powerplants1.png"  alt="Courier and Escort Services">
+              <img src="frontend/images/newone6.png"  alt="Courier and Escort Services">
             </div>
             <div class="detail-box">
               <h5>
@@ -182,7 +182,7 @@
         <div class="col-md-2 col-lg-10">
           <div class="box">
             <div class="img-box">
-              <img src="frontend/images/railways.png" alt="Security Gadget Installation">
+              <img src="frontend/images/newone7.png" alt="Security Gadget Installation">
             </div>
             <div class="detail-box">
               <h5>
@@ -200,7 +200,7 @@
         <div class="col-md-2 col-lg-10">
           <div class="box">
             <div class="img-box">
-              <img src="frontend/images/retail.png" alt="Employment Verification Services">
+              <img src="frontend/images/newone8.png" alt="Employment Verification Services">
             </div>
             <div class="detail-box">
               <h5>
@@ -218,7 +218,7 @@
         <div class="col-md-2 col-lg-10">
           <div class="box">
             <div class="img-box">
-              <img src="frontend/images/retail2.png" alt="Temporary Staffing Solutions">
+              <img src="frontend/images/newone9.png" alt="Temporary Staffing Solutions">
             </div>
             <div class="detail-box">
               <h5>
@@ -236,7 +236,7 @@
         <div class="col-md-2 col-lg-10">
           <div class="box">
             <div class="img-box">
-              <img src="frontend/images/staff.png" alt="Permanent Staffing Solutions">
+              <img src="frontend/images/newone10.png" alt="Permanent Staffing Solutions">
             </div>
             <div class="detail-box">
               <h5>
@@ -254,7 +254,7 @@
         <div class="col-md-2 col-lg-10">
           <div class="box">
             <div class="img-box">
-              <img src="frontend/images/staff3.png" alt="Turnkey Project Execution">
+              <img src="frontend/images/newone11.png" alt="Turnkey Project Execution">
             </div>
             <div class="detail-box">
               <h5>
@@ -272,7 +272,7 @@
         <div class="col-md-2 col-lg-10">
           <div class="box">
             <div class="img-box">
-              <img src="frontend/images/staff1.png" alt="Survey Services and Compliance">
+              <img src="frontend/images/newone.png" alt="Survey Services and Compliance">
             </div>
             <div class="detail-box">
               <h5>
@@ -297,6 +297,7 @@
         </a>
       </div> --}}
     </div>
+  </div>
   </section>
   <!-- end service section -->
 
@@ -320,7 +321,7 @@
 <!-- end service section -->
 
 <!-- about section -->
-<section class="about_section layout_padding">
+<section class="about_section layout_padding" >
   <div class="container">
     <div class="row">
       <div class="col-md-6">
@@ -361,13 +362,13 @@
           'image' => 'case-1.jpg',
           'title' => 'Staffing & Turnkey Projects',
           'para' => 'We offer reliable staffing solutions across various domains and manage end-to-end turnkey projects with precision—from planning to execution.',
-          'link' => 'staff_turnkey'
+          'link' => 'about'
         ],
         [
           'image' => 'case-2.jpg',
           'title' => 'Guest House, Catering & Canteen Management',
           'para' => 'Our professional catering and canteen services are designed to ensure hygienic, nutritious,and timely meal delivery for employees and guests.',
-          'link' => 'guest-catering-canteen'
+          'link' => 'contact'
         ]
       ] as $case)
       <div class="col-md-6">
@@ -377,10 +378,10 @@
           </div>
           <div class="detail-box">
             <h5>{{ $case['title'] }}</h5>
-            <p style="color: rgb(22, 8, 8);">{{ $case['para'] }}</p>
+            <p style="color: #0b0a0a;">{{ $case['para'] }}</p>
             <a href="{{ url($case['link']) }}">
-              <span>Read More</span>
-              <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              <span style="color: #0b0a0a;">Read More</span>
+              <i class="fa fa-long-arrow-right" aria-hidden="true" style="color: #0b0a0a"></i>
             </a>
           </div>
         </div>
@@ -411,13 +412,13 @@
                 <div class="detail-box">
                   <div class="client_info">
                     <div class="client_name">
-                      <h2>Our Client Support</h2>
+                      <h2 >Our Client Support</h2>
                     </div>
                     {{-- <i class="fa fa-quote-left" aria-hidden="true"></i> --}}
                   </div>
                   <a href="client_operation">
-                    <span style="color: white;">Read More</span>
-                    <i class="fa fa-long-arrow-right" aria-hidden="true" style="color: white;"></i>
+                    <span style="color: #ffffff;">Read More</span>
+                    <i class="fa fa-long-arrow-right" aria-hidden="true" style="color:#0b0a0a;"></i>
                   </a>
                 </div>
               </div>

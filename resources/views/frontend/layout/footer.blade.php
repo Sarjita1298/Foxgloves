@@ -12,10 +12,7 @@
                   <h6 class="brand-subtitle">MANIFOLD SERVICES & SECURITIES PVT. LTD.</h6>
                 </span>
               </a>
-              <p style="color:white">
-                FOXGLOVES MANIFOLD SERVICES AND SECURITIES PRIVATE LIMITED (CIN: U74993MP2018PTC045505) is a 
-                Private company incorporated on 10 Dec 2018. It is classified as Non-government company and 
-                is registered at Registrar of Companies, Gwalior.  </p>
+           
             </div>
           </div>
           <div class="col-md-6 col-lg-1 mx-auto">
