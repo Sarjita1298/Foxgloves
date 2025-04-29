@@ -1,4 +1,5 @@
 @extends('frontend.master')
+<link rel="stylesheet" href="{{ asset('frontend/css/service.css') }}">
 
 @section('content')
 
@@ -205,31 +206,64 @@
   </section>
 
   <!-- end service section -->
-  <section class="industries-section" style="background: url('{{ asset('frontend/images/guest.png') }}') no-repeat center center; background-size: cover; ">
-    <div class="industries-box">
-        <h2>Industries We Serve</h2>
-        <ul class="industries-list">
-          
-            <li>Automobiles</li>
-            <li>Manufacturing Units</li>
-            <li>Engineering & Infrastructure</li>
-            <li>IT & ITES</li>
-            <li>Telecom</li>
-            <li>Educational Institutions</li>
-            <li>Hospitality (Hotels & Resorts)</li>
-            <li>Hospitals & Clinics</li>
-            <li>Power Plants & Mines</li>
-            <li>Government & Public Sector</li>
-            <li>Airports</li>
-            <li>Shopping Malls</li>
-            <li>Railways</li>
-            <li>Guest Houses</li>
-            <li>Retail & Multiplex</li>
-            <li>... and more.</li>
-        </ul>
+  <section class="commitment-section py-5  my-5 bg-light" style="background-image: url('{{ asset('frontend/images/govt&public.png') }}'); background-size: cover; background-position: center; background-repeat: no-repeat; height: 500px; padding: 50px 20px; color: white; border-radius: 250px 0 250px 0;">
+  
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- IMAGE COLUMN -->
+        <div class="col-md-6 mb-4 mb-md-0">
+          <div class="img-wrapper">
+            <img src="{{ asset('frontend/images/commitment-quality.png') }}" alt="Commitment to Quality" class="img-fluid rounded shadow">
+          </div>
+        </div>
+  
+        <!-- TEXT COLUMN -->
+        <div class="col-md-6">
+          <div class="text-wrapper px-3">
+            <h2 class="fw-bold mb-3 text-primary">Our Commitment to Quality</h2>
+            <p class="text-dark fs-5" style="line-height: 1.7;">
+              At FoxGloves Manifold Services & Securities Pvt. Ltd., quality is not just a goal — it’s our foundation. We strictly adhere to 
+              <strong>ISO 9001:2015 certified protocols</strong>. . Each project is subjected to <strong> internal audits, client feedback loops, and surprise quality inspections</strong> to ensure continuous improvement and adherence to SLAs.
+            </p>
+            <p class="text-warning fs-6">
+              Every project undergoes structured internal audits, robust client feedback mechanisms, and unannounced quality inspections to ensure continual improvement. This disciplined approach helps us exceed expectations while maintaining adherence to SLAs (Service Level Agreements).
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
   
+
+  <section class="about-section py-5 my-5 position-relative" style="background-image: url('{{ asset('frontend/images/training_&_development.png') }}'); 
+background-size: cover; background-position: center; margin-bottom: 80px;  border-radius: 250px 0 250px 0;">
+    <div class="overlay" style=" border-radius: 250px 0 250px 0;"></div>
+
+    <div class="container position-relative">
+        <div class="row align-items-center">
+
+            <div class="col-md-6 text-start mb-4 mb-md-0">
+                <h1 id="headingText" class="fw-bold">
+                    TRAINING & DEVELOP
+                    -MENT
+                </h1>
+            </div>
+
+            <div class="col-md-6">
+                <p id="paraText" class="fs-5">
+                    Our training infrastructure equips personnel with both general and role-specific expertise through:
+                    <br><br>
+                    • Induction Programs<br>
+                    • Refresher Courses<br>
+                    • Emergency Handling (Fire, Bomb Threats, Evacuation)<br>
+                    • Unarmed Combat Training<br>
+                    • First Aid & Sanitation<br>
+                    • Chauffeur Driving Skills for VIP Movements
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
   @endsection
   <!-- end service section -->
  

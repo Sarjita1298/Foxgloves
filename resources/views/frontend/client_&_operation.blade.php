@@ -3,6 +3,7 @@
 @section('title', 'State Information')
 
 @section('content')
+<section class="client&operational-reach">
 <div class="container">
     <h1 class="text-center mt-4 mb-4">Our Client Support</h1>
 
@@ -27,6 +28,7 @@
         </div>
     </div>
 </div>
+</section>
 
 
 

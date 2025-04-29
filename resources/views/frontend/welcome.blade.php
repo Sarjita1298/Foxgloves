@@ -1,9 +1,9 @@
 @extends('frontend.master')
 
 @section('content')
-<section class="about-section py-5 position-relative" style="background-image: url('{{ asset('frontend/images/Foxgloves.jpg') }}'); 
-background-size: cover; background-position: center; margin-bottom: 80px;">
-    <div class="overlay"></div>
+<section class="about-section py-5 my-5 position-relative" style="background-image: url('{{ asset('frontend/images/railways1.png') }}'); 
+background-size: cover; background-position: center; margin-bottom: 80px; border-radius: 250px 0 250px 0;">
+    <div class="overlay " style="border-radius: 250px 0 250px 0;"></div>
 
     <div class="container position-relative">
       <div class="row align-items-center">
@@ -14,7 +14,7 @@ background-size: cover; background-position: center; margin-bottom: 80px;">
           </h1>
         </div>
 
-        <div class="col-md-6">
+        <div class="col-md-6 ">
           <p id="paraText" class="fs-5">
             <strong>FoxGloves</strong> is a government-recognized startup and an 
             <strong>ISO 9001:2015 certified company</strong> headquartered in 

@@ -37,8 +37,8 @@
 
  
 <section class="about-section py-5 my-5 position-relative" style="background-image: url('{{ asset('frontend/images/hotel2.png') }}'); 
-background-size: cover; background-position: center; margin-bottom: 80px;">
-    <div class="overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.6); z-index: 1;"></div>
+background-size: cover; background-position: center; margin-bottom: 80px; border-radius: 250px 0 250px 0;">
+    <div class="overlay" style=" border-radius: 250px 0 250px 0; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.6); z-index: 1;"></div>
   
     <div class="container position-relative" style="z-index: 2;">
       <div class="row align-items-center">
@@ -70,7 +70,7 @@ background-size: cover; background-position: center; margin-bottom: 80px;">
     </div>
   </section>
 
-  <section class="industries-section" style="background: url('{{ asset('frontend/images/guest.png') }}') no-repeat center center; background-size: cover; ">
+  <section class="industries-section" style="background: url('{{ asset('frontend/images/guest.png') }}') no-repeat center center; background-size: cover; border-radius: 250px 0 250px 0; ">
     <div class="industries-box">
         <h2>Industries We Serve</h2>
         <ul class="industries-list">

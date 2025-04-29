@@ -36,6 +36,12 @@
                 <a class="" href="contact">
                   Contact Us
                 </a>
+                <a class="" href="our_mission">
+                  Our Mission
+                </a>
+                <a class="" href="guest-catering-canteen">
+                  Guest Sevice
+                </a>
               </div>
             </div>
           </div>

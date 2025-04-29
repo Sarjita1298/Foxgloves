@@ -1,5 +1,3 @@
-<!-- resources/views/frontend/master.blade.php -->
-
 <div class="hero_area">
   <!-- header section starts -->
   <header class="header_section">
@@ -45,23 +43,4 @@
 
   
   <!-- header section ends -->
-</div>
-<div class="service-dropdown-wrapper">
-  <a href="service" id="serviceDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-    <img src="{{ asset('frontend/images/service-we-provide.jpg') }}" alt="Service We Provide" class="img-fluid service-dropdown-img">
-  </a>
-  <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="serviceDropdown">
-    <li><a class="dropdown-item" href="{{ route('home') }}">Home</a></li>
-    <li><a class="dropdown-item" href="{{ route('about') }}">About</a></li>
-    <li><a class="dropdown-item" href="{{ route('service') }}">Service</a></li>
-    <li><a class="dropdown-item" href="{{ route('contact') }}">Contact</a></li>
-    <li><a class="dropdown-item" href="{{ route('our_mission') }}">Our Mission</a></li>
-    <li><a class="dropdown-item" href="{{ route('training_development') }}">Training</a></li>
-    <li><a class="dropdown-item" href="{{ route('our_mission') }}">Industry</a></li>
-    <li><a class="dropdown-item" href="{{ route('guest-catering-canteen') }}">Guest House</a></li>
-    <li><a class="dropdown-item" href="{{ route('staff_turnkey') }}">Staff & Turnkey</a></li>
-    <li><a class="dropdown-item" href="{{ route('our_commitment') }}">Our Commitment</a></li>
-    <li><a class="dropdown-item" href="{{ route('client_operation') }}">Client & Operational Reach</a></li>
-
-  </ul>
 </div>

@@ -365,9 +365,9 @@
         ],
         [
           'image' => 'case-2.jpg',
-          'title' => 'Our Commitment to Quality',
-          'para' => 'With ISO 9001:2015 standards at our core, we ensure every project meets rigorous quality benchmarks through audits and feedback.',
-          'link' => 'our_commitment'
+          'title' => 'Guest House, Catering & Canteen Management',
+          'para' => 'Our professional catering and canteen services are designed to ensure hygienic, nutritious,and timely meal delivery for employees and guests.',
+          'link' => 'guest-catering-canteen'
         ]
       ] as $case)
       <div class="col-md-6">
@@ -395,7 +395,7 @@
 <section class="client_section">
   <div class="container">
     <div class="heading_container heading_center">
-      <h2>GUEST SERVICES</h2>
+      <h1>Our Client Support</h1>
     </div>
   </div>
   <div id="customCarousel2" class="carousel slide" data-ride="carousel">
@@ -411,11 +411,11 @@
                 <div class="detail-box">
                   <div class="client_info">
                     <div class="client_name">
-                      <h5>Guest & Catering</h5>
+                      <h2>Our Client Support</h2>
                     </div>
                     {{-- <i class="fa fa-quote-left" aria-hidden="true"></i> --}}
                   </div>
-                  <a href="guest-catering-canteen">
+                  <a href="client_operation">
                     <span style="color: white;">Read More</span>
                     <i class="fa fa-long-arrow-right" aria-hidden="true" style="color: white;"></i>
                   </a>
