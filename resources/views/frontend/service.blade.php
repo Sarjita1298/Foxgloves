@@ -246,9 +246,9 @@ background-size: cover; background-position: center; margin-bottom: 80px;  borde
         <div class="row align-items-center">
 
             <div class="col-md-6 text-start mb-4 mb-md-0">
-                <h1 id="headingText" class="fw-bold">
+                <h6 id="headingText" class="fw-bold">
                     TRAINING & DEVELOPMENT
-                </h1>
+                </h6>
             </div>
 
             <div class="col-md-6">

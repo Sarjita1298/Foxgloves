@@ -665,8 +665,8 @@ a:focus {
 }
 
 .client_section .box .img-box {
-  width: 125px;
-  height: 125px;
+  width: 150px;
+  height: 150px;
   min-width: 125px;
   position: relative;
   margin-bottom: -62.5px;
@@ -692,18 +692,18 @@ a:focus {
 }
 
 .client_section .box .client_info i {
-  font-size: 24px;
+  font-size: 40px;
 }
 
 .client_section .box p {
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .client_section .box .detail-box {
   background-color: #e45b10;
   color: #ffffff;
   border-radius: 15px;
-  padding: 85px 45px 15px 45px;
+  padding: 95px 85px 25px 85px;
 }
 
 .client_section .carousel-indicators {
@@ -1076,82 +1076,89 @@ body {
 
 /* Section Styles */
 .staffing_section, .turnkey_section {
-  padding: 60px 0; /* Add padding to the top and bottom of the sections */
-  background-color: #f8f9fa; /* Light background color for contrast */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 500px;
+  padding: 50px 20px;
+  color: white;
 }
 
-/* Background Color for Cards */
+/* Unified Card Styles */
 .card {
-  border: none; 
-  border-radius: 10px; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-  transition: transform 0.3s, background-color 0.3s;
-  background-color: #dcbd1e; 
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  color: #ebcccc;
 }
 
-.card {
-  transition: transform 0.3s, background-color 0.3s, color 0.3s;
-  color: #333; /* default text color */
-}
-
+/* Hover Effect */
 .card:hover {
-  transform: translateY(-5px); 
-  background-color: #ed9f7b; 
-  color: #fff; /* make text white on hover for visibility */
+  transform: translateY(-5px);
+  background-color: #edac7b;
+  color: #f1efee;
+}
+
+/* Ensure Nested Elements Also Change Color on Hover */
+.card:hover .card-title,
+.card:hover .card-text {
+  color: #d66616 !important;
 }
 
 /* Image Styles */
 .card-img-top {
-  border-top-left-radius: 10px; 
-  border-top-right-radius: 10px; 
-  height: 200px; 
-  object-fit: cover; 
-  transition: opacity 0.3s; 
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 200px;
+  object-fit: cover;
+  transition: opacity 0.3s;
 }
 
 .card:hover .card-img-top {
-  opacity: 0.8; 
+  opacity: 0.8;
 }
 
 /* Headings */
 h1 {
-  font-size: 2.5rem; 
+  font-size: 2.5rem;
   color: #333;
-  margin-bottom: 20px; 
-}
-
-.text-center {
-  text-align: center; 
+  margin-bottom: 20px;
 }
 
 /* Paragraph Styles */
 p {
-  font-size: 1.1rem; 
-  color: #f1eded; 
-  margin-bottom: 40px; 
+  font-size: 1.1rem;
+  color: #f1eded;
+  margin-bottom: 40px;
 }
 
 /* Card Title and Text Styles */
 .card-title {
-  font-size: 1.5rem; 
-  color: #9ca9b6; 
-  margin-bottom: 10px; 
+  font-size: 1.5rem;
+  color: #9ca9b6;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
 }
 
 .card-text {
-  color: #555; 
+  color: #555;
+  transition: color 0.3s ease;
 }
 
 /* Responsive Styles */
 @media (max-width: 768px) {
   h1 {
-      font-size: 2rem;
+    font-size: 2rem;
   }
 
   .card {
-      margin-bottom: 20px;
+    margin-bottom: 20px;
   }
 }
+
+
 
 .industries-section {
   margin:0px;
@@ -1404,7 +1411,7 @@ p {
 }
 
 .heading_container h2 {
-  font-size: 36px;
+  font-size: 60px;
   font-weight: bold;
   color: #333;
 }

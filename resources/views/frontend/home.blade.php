@@ -359,13 +359,13 @@
     <div class="row">
       @foreach([
         [
-          'image' => 'case-1.jpg',
+          'image' => 'stafff.png',
           'title' => 'Staffing & Turnkey Projects',
           'para' => 'We offer reliable staffing solutions across various domains and manage end-to-end turnkey projects with precision—from planning to execution.',
           'link' => 'about'
         ],
         [
-          'image' => 'case-2.jpg',
+          'image' => 'guesttt.png',
           'title' => 'Guest House, Catering & Canteen Management',
           'para' => 'Our professional catering and canteen services are designed to ensure hygienic, nutritious,and timely meal delivery for employees and guests.',
           'link' => 'contact'
