@@ -30,8 +30,8 @@
             </li>
           </ul>
           <div class="quote_btn-container" style="max-width: 200px; margin: 0 auto;">
-            <a href="{{ route('home') }}" class="quote_btn">
-              Get A Quote
+            <a href="{{ route('client_operation') }}" class="quote_btn">
+              Client's Reach
             </a>
           </div>
         </div>

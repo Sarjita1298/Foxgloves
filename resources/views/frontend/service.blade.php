@@ -240,7 +240,7 @@
 
   <section class="about-section py-5 my-5 position-relative" style="background-image: url('{{ asset('frontend/images/training_&_development.png') }}'); 
 background-size: cover; background-position: center; margin-bottom: 80px;  border-radius: 250px 0 250px 0;">
-    <div class="overlay" style=" border-radius: 250px 0 250px 0;"></div>
+    <div class="overlay" style=" border-radius: 250px 0 250px 0; position: absolute;top: 0; left: 0; right: 0; bottom: 0;background: rgba(0, 0, 0, 0.5); backdrop-filter: blur(2px); z-index: 1; "></div>">
 
     <div class="container position-relative">
         <div class="row align-items-center">

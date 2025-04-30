@@ -14,7 +14,7 @@ background-size: cover; background-position: center; margin-bottom: 80px; border
           </h1>
         </div>
 
-        <div class="col-md-6 ">
+        <div class="col-md-6 ms-auto">
           <p id="paraText" class="fs-5">
             <strong>FoxGloves</strong> is a government-recognized startup and an 
             <strong>ISO 9001:2015 certified company</strong> headquartered in 

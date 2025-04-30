@@ -97,6 +97,7 @@ class HomeController extends Controller
     return view('frontend.client_&_operation', compact('states'));
 }
 
+
 public function show($state)
 {
     $states = [

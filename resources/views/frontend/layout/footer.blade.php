@@ -33,12 +33,12 @@
                 <a class="" href="contact">
                   Contact Us
                 </a>
-                <a class="" href="our_mission">
+                <a class="" href="about">
                   Our Mission
                 </a>
-                <a class="" href="guest-catering-canteen">
+                {{-- <a class="" href="guest-catering-canteen">
                   Guest Sevice
-                </a>
+                </a> --}}
               </div>
             </div>
           </div>
