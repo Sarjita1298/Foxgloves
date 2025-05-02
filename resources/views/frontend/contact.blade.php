@@ -139,12 +139,7 @@
       <!-- ✅ Google Map using iframe (NO API NEEDED) -->
       <iframe
         src="https://www.google.com/maps?q=6303,+Block-06,+Soumya+Parklands,+Awadhpuri,+Bhopal+(M.P.)+–+462022&output=embed"
-        width="100%"
-        height="100%"
-        style="border:0;"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade">
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
       </iframe>
     </div>
   </div>
