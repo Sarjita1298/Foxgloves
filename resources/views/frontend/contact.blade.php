@@ -133,10 +133,10 @@
           </form>
         </div>
       </div>
+
   <div class="col-md-6 col-lg-7 px-0">
   <div class="map_container">
     <div class="map-gap" style="width: 95%; height: 500px;">
-      <!-- ✅ Google Map using iframe (NO API NEEDED) -->
       <iframe
         src="https://www.google.com/maps?q=6303,+Block-06,+Soumya+Parklands,+Awadhpuri,+Bhopal+(M.P.)+–+462022&output=embed"
         width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
@@ -144,4 +144,5 @@
     </div>
   </div>
 </div>
+
 @endsection
