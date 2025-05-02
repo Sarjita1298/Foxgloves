@@ -808,6 +808,10 @@ a:focus {
   height: 100%;
   min-height: 400px; 
 }
+.map-gap {
+  margin-left: 30px; /* adjust the gap as you like */
+}
+
 
 .footer_container {
   background-color:  #ecf0f8;

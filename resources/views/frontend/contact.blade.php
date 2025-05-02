@@ -3,8 +3,8 @@
 @section('content')
 
 <!-- STAFFING SECTION -->
-<section class="turnkey_section my-5" style="background: url('{{ asset('frontend/images/railways1.png') }}') center center / cover no-repeat; height: 700px; padding: 50px 20px; color: white; position: relative;">
-  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;backdrop-filter: blur(2px); background-color: rgba(0, 0, 0, 0.5); z-index: 1;">
+<section class="turnkey_section my-5" style="background: url('{{ asset('frontend/images/railways1.png') }}') center center / cover no-repeat; height: 700px; padding: 50px 20px; color: white; position: relative;border-radius: 250px 0 250px 0;">
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;backdrop-filter: blur(2px); background-color: rgba(0, 0, 0, 0.5); z-index: 1;border-radius: 250px 0 250px 0;">
   </div>
 
   <div class="container text-center p-4" style="position: relative; z-index: 1;">
@@ -49,8 +49,8 @@
 </section>
 
 <!-- TURNKEY SECTION -->
-<section class="turnkey_section my-5" style="background: url('{{ asset('frontend/images/railways1.png') }}') center center / cover no-repeat; height: 700px; padding: 50px 20px; color: white; position: relative;">
-  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; backdrop-filter: blur(2px); background-color: rgba(0, 0, 0, 0.5); z-index: 1;">
+<section class="turnkey_section my-5" style="background: url('{{ asset('frontend/images/railways1.png') }}') center center / cover no-repeat; height: 700px; padding: 50px 20px; color: white; position: relative;border-radius: 250px 0 250px 0;">
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; backdrop-filter: blur(2px); background-color: rgba(0, 0, 0, 0.5); z-index: 1;border-radius: 250px 0 250px 0;">
   </div>
 
   <!-- Foreground content -->
@@ -135,7 +135,7 @@
       </div>
   <div class="col-md-6 col-lg-7 px-0">
   <div class="map_container">
-    <div class="map" style="width: 100%; height: 500px;">
+    <div class="map-gap" style="width: 95%; height: 500px;">
       <!-- ✅ Google Map using iframe (NO API NEEDED) -->
       <iframe
         src="https://www.google.com/maps?q=6303,+Block-06,+Soumya+Parklands,+Awadhpuri,+Bhopal+(M.P.)+–+462022&output=embed"

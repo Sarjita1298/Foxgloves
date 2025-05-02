@@ -2,16 +2,16 @@
 
 @section('content')
 <section class="about-section py-5 my-5 position-relative" style="background-image: url('{{ asset('frontend/images/railways1.png') }}'); 
-background-size: cover; background-position: center; margin-bottom: 80px; border-radius: 250px 0 250px 0;">
+background-size: cover; background-position: center; margin-bottom: 60px; border-radius: 250px 0 250px 0;">
     <div class="overlay " style="border-radius: 250px 0 250px 0;"></div>
 
     <div class="container position-relative">
       <div class="row align-items-center">
 
         <div class="col-md-6 text-start mb-4 mb-md-0">
-          <h1 id="headingText" class="fw-bold">
+          <h4 id="headingText" class="fw-bold">
             FoxGloves Manifold<br>Services & Securities Pvt. Ltd.
-          </h1>
+          </h4>
         </div>
 
         <div class="col-md-6 ms-auto">
