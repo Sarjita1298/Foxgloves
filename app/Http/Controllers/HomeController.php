@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Contact;
 use App\Models\Subscriber;
+use App\Mail\ContactMessageMail; 
+use Illuminate\Support\Facades\Mail;
+use App\Mail\SubscribeConfirmationMail;
 
 class HomeController extends Controller
 {
@@ -30,6 +33,7 @@ class HomeController extends Controller
 
     public function storeContact(Request $request)
     {
+        // Validate the incoming request data
         $request->validate([
             'name' => 'required',
             'email' => 'required|email',
@@ -37,14 +41,20 @@ class HomeController extends Controller
             'message' => 'required|min:6',
         ]);
 
-        Contact::create([
+        // Create the contact record in the database
+        $contact = Contact::create([
             'name' => $request->name,
             'email' => $request->email,
             'phone' => $request->phone,
             'message' => $request->message,
         ]);
 
-        return redirect()->route('index')->with('success', 'Your message has been sent successfully!');
+        // Send an email to the user who submitted the form
+        // Make sure $contact is passed to the Mailable
+        Mail::to($request->email)->send(new ContactMessageMail($contact));
+
+        // Redirect with a success message
+        return redirect()->route('home')->with('success', 'Your message has been sent successfully!');
     }
 
     public function store(Request $request)
@@ -52,69 +62,81 @@ class HomeController extends Controller
         $request->validate([
             'email' => 'required|email|unique:subscribers,email',
         ]);
-
-        Subscriber::create([
+    
+        // Save to database
+        $subscriber = Subscriber::create([
             'email' => $request->email,
         ]);
-
-        return redirect()->route('index')->with('success', 'Thanks for subscribing!');
+    
+        // Send confirmation email
+        Mail::to($subscriber->email)->send(new SubscribeConfirmationMail($subscriber->email));
+    
+        // Redirect with success message
+        return redirect()->route('home')->with('success', 'Thanks for subscribing!');
     }
+    
 
-    public function our_profile(){
+    // Other methods...
+
+    public function our_profile()
+    {
         return view('frontend.welcome');
     }
 
-    public function our_mission(){
+    public function our_mission()
+    {
         return view('frontend.our_mission');
     }
 
-    public function training_development(){
+    public function training_development()
+    {
         return view('frontend.training_dev');
     }
 
-    public function guest_catering_canteen(){
+    public function guest_catering_canteen()
+    {
         return view('frontend.guest_catering');
     }
 
-    public function staff_turnkey(){
+    public function staff_turnkey()
+    {
         return view('frontend.staff_turnkey');
     }
-    
-    public function our_commitment(){
+
+    public function our_commitment()
+    {
         return view('frontend.our_commitment');
     }
 
     public function client_operation()
-{
-    $states = [
-        'MP' => 'Madhya Pradesh',
-        'CG' => 'Chhattisgarh',
-        'MH' => 'Maharashtra',
-        'DL' => 'Delhi',
-        'UT' => 'Uttarakhand',
-    ];
+    {
+        $states = [
+            'MP' => 'Madhya Pradesh',
+            'CG' => 'Chhattisgarh',
+            'MH' => 'Maharashtra',
+            'DL' => 'Delhi',
+            'UT' => 'Uttarakhand',
+        ];
 
-    return view('frontend.client_&_operation', compact('states'));
-}
-
-
-public function show($state)
-{
-    $states = [
-        'MP' => 'Madhya Pradesh',
-        'CG' => 'Chhattisgarh',
-        'MH' => 'Maharashtra',
-        'DL' => 'Delhi',
-        'UT' => 'Uttarakhand',
-    ];
-
-    if (!array_key_exists($state, $states)) {
-        return redirect()->route('home')->with('error', 'State data not found.');
+        return view('frontend.client_&_operation', compact('states'));
     }
 
-    $stateName = $states[$state];
+    public function show($state)
+    {
+        $states = [
+            'MP' => 'Madhya Pradesh',
+            'CG' => 'Chhattisgarh',
+            'MH' => 'Maharashtra',
+            'DL' => 'Delhi',
+            'UT' => 'Uttarakhand',
+        ];
 
-    return view('client_&_operation', compact('stateName'));
-}
+        if (!array_key_exists($state, $states)) {
+            return redirect()->route('home')->with('error', 'State data not found.');
+        }
 
+        $stateName = $states[$state];
+
+        return view('frontend.client_&_operation', compact('stateName'));
+    }
 }

@@ -93,7 +93,6 @@
 </section>
 
 
-
 <section class="contact_section layout_padding">
   <div class="container-fluid">
     <div class="row">
@@ -134,29 +133,20 @@
           </form>
         </div>
       </div>
-      <div class="col-md-6 col-lg-7 px-0">
-        <div class="map_container">
-          <div class="map" style="width: 100%; height: 500px;">
-            <div id="googleMap" style="width: 100%; height: 100%;"></div>
-          </div>
-        </div>
-      </div>
+  <div class="col-md-6 col-lg-7 px-0">
+  <div class="map_container">
+    <div class="map" style="width: 100%; height: 500px;">
+      <!-- ✅ Google Map using iframe (NO API NEEDED) -->
+      <iframe
+        src="https://www.google.com/maps?q=6303,+Block-06,+Soumya+Parklands,+Awadhpuri,+Bhopal+(M.P.)+–+462022&output=embed"
+        width="100%"
+        height="100%"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
     </div>
   </div>
-</section>
-
-
-@endsection
-
-@section('scripts')
-<script>
-  function initMap() {
-    var mapOptions = {
-      center: { lat: 28.644800, lng: 77.216721 },
-      zoom: 10
-    };
-    new google.maps.Map(document.getElementById("googleMap"), mapOptions);
-  }
-</script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=initMap"></script>
+</div>
 @endsection
