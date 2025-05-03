@@ -37,7 +37,7 @@
 
  
 <section class="about-section py-5 my-5 position-relative" style="background-image: url('{{ asset('frontend/images/hotel2.png') }}'); 
-background-size: cover; background-position: center; margin-bottom: 80px; border-radius: 250px 0 250px 0;">
+ background-size: cover; background-position: center; margin-bottom: 80px; border-radius: 250px 0 250px 0;">
     <div class="overlay" style=" border-radius: 250px 0 250px 0; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.6); z-index: 1;"></div>
   
     <div class="container position-relative" style="z-index: 2;">
@@ -71,7 +71,7 @@ background-size: cover; background-position: center; margin-bottom: 80px; border
   </section>
 
   <section class="industries-section" style="background: url('{{ asset('frontend/images/guest.png') }}') no-repeat center center; background-size: cover; border-radius: 250px 0 250px 0; ">
-    <div class="industries-box">
+    <div class="industries-box" >
         <h2>Industries We Serve</h2>
         <ul class="industries-list">
           
@@ -97,7 +97,7 @@ background-size: cover; background-position: center; margin-bottom: 80px; border
 
 <!-- BOOTSTRAP SLIDER START -->
 <section class="slider_section my-5" style="border-radius: 250px 0 250px 0;" >
-  <div style="position: absolute;top: 0; left: 0; right: 0; bottom: 0;background: rgba(0, 0, 0, 0.5); backdrop-filter: blur(2px); z-index: 1;"></div>
+  <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.5); backdrop-filter: blur(2px); z-index: 1; pointer-events: none;"></div>
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1500">
     <ol class="carousel-indicators">
       <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
@@ -186,16 +186,8 @@ background-size: cover; background-position: center; margin-bottom: 80px; border
   </div>
 </section>
 
-
 @endsection
   <!-- end about section -->
-
-  
-   
-
-  
-
-  
 </body>
 
 </html>
