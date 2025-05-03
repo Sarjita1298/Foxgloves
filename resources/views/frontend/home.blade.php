@@ -59,8 +59,8 @@
               <img src="frontend/images/newone.png" alt="Facility Management Service">
             </div>
             <div class="detail-box">
-              <h5>
-                Facility Man...
+              <h5 class="text-dark fs-7">
+                Facility Management...
               </h5>
               <a href="service">
                 <span>
@@ -77,8 +77,8 @@
               <img src="frontend/images/newone1.png" alt="Mechanized Housekeeping for Industries">
             </div>
             <div class="detail-box">
-              <h5>
-                Mechanized...            
+              <h5 class="text-dark fs-7">
+                Mechanized Housekeeping...            
               </h5>
               <a href="service">
                 <span>
@@ -95,8 +95,8 @@
               <img src="frontend/images/newone2.png" alt="Security Services for Commercial Premises">
             </div>
             <div class="detail-box">
-              <h5>
-                Security Serv...
+              <h5 class="text-dark fs-7">
+                Security Services...
               </h5>             
               <a href="service">
                 <span>
@@ -113,8 +113,8 @@
               <img src="frontend/images/newone3.png" alt="Catering and Canteen Services">
             </div>
             <div class="detail-box">
-              <h5>
-                Catering & Can...
+              <h5 class="text-dark fs-7">
+                Catering & Canteen ...
               </h5>
               <a href="service">
                 <span>
@@ -131,8 +131,8 @@
               <img src="frontend/images/newone4.png" alt="Guest House Management">
             </div>
             <div class="detail-box">
-              <h5>
-                Guest House ...
+              <h5 class="text-dark fs-7">
+                Guest House Manage...
               </h5>
               <a href="service">
                 <span>
@@ -149,8 +149,8 @@
               <img src="frontend/images/newone5.png" alt="Event Management Security">
             </div>
             <div class="detail-box">
-              <h5>
-                Event Manage... 
+              <h5 class="text-dark fs-7">
+                Event Management... 
               </h5>     
               <a href="service">
                 <span>
@@ -167,8 +167,8 @@
               <img src="frontend/images/newone6.png"  alt="Courier and Escort Services">
             </div>
             <div class="detail-box">
-              <h5>
-                 Courier & Es...       
+              <h5 class="text-dark fs-7">
+                 Courier & Escort ...       
               </h5>
               <a href="service">
                 <span>
@@ -185,8 +185,8 @@
               <img src="frontend/images/newone7.png" alt="Security Gadget Installation">
             </div>
             <div class="detail-box">
-              <h5>
-                Supply, Instal...
+              <h5 class="text-dark fs-7">
+                Supply Monitoring
               </h5>
               <a href="service">
                 <span>
@@ -203,8 +203,8 @@
               <img src="frontend/images/newone8.png" alt="Employment Verification Services">
             </div>
             <div class="detail-box">
-              <h5>
-                Pre-employ... 
+              <h5 class="text-dark fs-7">
+                Pre-employment 
               </h5>
               <a href="service">
                 <span>
@@ -221,8 +221,8 @@
               <img src="frontend/images/newone9.png" alt="Temporary Staffing Solutions">
             </div>
             <div class="detail-box">
-              <h5>
-                Temporary Staf...
+              <h5 class="text-dark fs-7">
+                Temporary Staffing ...
               </h5>
               <a href="service">
                 <span>
@@ -239,8 +239,8 @@
               <img src="frontend/images/newone10.png" alt="Permanent Staffing Solutions">
             </div>
             <div class="detail-box">
-              <h5>
-                Permanent Staf...
+              <h5 class="text-dark fs-7">
+                Permanent Staffing ...
               </h5>
               <a href="service">
                 <span>
@@ -257,7 +257,7 @@
               <img src="frontend/images/newone11.png" alt="Turnkey Project Execution">
             </div>
             <div class="detail-box">
-              <h5>
+              <h5 class="text-dark fs-7">
                 Turnkey Base...
               </h5>
               <a href="service">
@@ -275,8 +275,8 @@
               <img src="frontend/images/newone.png" alt="Survey Services and Compliance">
             </div>
             <div class="detail-box">
-              <h5>
-                Survey Servi...     
+              <h5 class="text-dark fs-7">
+                Survey Services...     
               </h5>
               <a href="service">
                 <span>
@@ -377,12 +377,14 @@
             <img src="{{ asset('frontend/images/' . $case['image']) }}" alt="">
           </div>
           <div class="detail-box">
+            <div class="center-wrapper">
             <h5>{{ $case['title'] }}</h5>
             <p style="color: #0b0a0a;">{{ $case['para'] }}</p>
             <a href="{{ url($case['link']) }}">
               <span style="color: #0b0a0a;">Read More</span>
               <i class="fa fa-long-arrow-right" aria-hidden="true" style="color: #0b0a0a"></i>
             </a>
+          </div>
           </div>
         </div>
       </div>

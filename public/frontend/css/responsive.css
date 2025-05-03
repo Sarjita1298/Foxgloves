@@ -46,10 +46,12 @@
   }
 }
 
+
 @media (max-width: 768px) {
   .hero_area {
     border-radius: 0 0 250px 0;
   }
+ 
 
   .slider_section .detail-box {
     margin-top: 45px;
@@ -58,6 +60,7 @@
   .about_section {
     border-radius: 150px 0 150px 0;
   }
+  
 
   .about_section .img-box {
     margin-top: 45px;
@@ -148,6 +151,54 @@
     margin-bottom: 25px;
   }
 }
+/* For small screens - fix font size and spacing */
+@media (max-width: 576px) {
+  .slider_section .detail-box p {
+    font-size: 0.9rem; /* smaller text */
+    margin-bottom: 15px;
+    padding: 0 10px; /* add side padding */
+    line-height: 1.4;
+  }
+
+  .slider_section .detail-box h2 {
+    font-size: 1.2rem;
+  }
+
+  .slider_section .detail-box {
+    padding: 10px 15px;
+    max-width: 100%;
+    background: rgba(0, 0, 0, 0.5); /* optional for readability */
+    border-radius: 10px;
+  }
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 576px) {
+  .mission-section h2 {
+    font-size: 2rem;         /* Smaller heading */
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .mission-section p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .mission-section {
+    padding: 20px 10px;
+    overflow-x: hidden;
+  }
+
+  .mission-section .container,
+  .mission-section .detail-box {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+}
 
 @media (max-width: 768px) {
   .hero_area {
@@ -198,3 +249,193 @@
     max-width: 1170px;
   }
 }
+/* Responsive Styles */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+}
+/* Mobile responsive styling */
+@media (max-width: 768px) {
+  .row {
+      flex-direction: column;
+  }
+
+  .col-md-8, .col-md-4 {
+      max-width: 100%;
+      margin-bottom: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .industries-list {
+      column-count: 1;
+  }
+}
+
+
+/* Responsive styles for tablets */
+@media (max-width: 768px) {
+  .carousel-caption {
+    top: 60%;
+    padding: 15px;
+    width: 95%;
+  }
+
+  .carousel-caption h2 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+  }
+
+  .carousel-caption p {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+}
+
+/* Responsive styles for phones */
+@media (max-width: 480px) {
+  .carousel-caption {
+    top: 65%;
+    padding: 10px;
+  }
+
+  .carousel-caption h2 {
+    font-size: 1.3rem;
+  }
+
+  .carousel-caption p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .commitment-section,
+  .about-section {
+    border-radius: 30px; /* reduce radius on mobile */
+    padding: 30px 15px;
+  }
+
+  .commitment-section h2,
+  #headingText {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .commitment-section p,
+  #paraText {
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: justify;
+  }
+
+  .img-wrapper {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .card-title {
+    font-size: 1.2rem;
+  }
+
+  .card-text {
+    font-size: 1rem;
+  }
+
+  .staffing_section, .turnkey_section {
+    height: auto; /* Prevent fixed height on small screens */
+    padding: 30px 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-title {
+    font-size: 1.2rem;
+  }
+
+  .card-text {
+    font-size: 1rem;
+  }
+   .card {
+      margin-bottom: 1rem;
+      height: auto !important;
+    }
+    .card-img-top {
+      height: 150px;
+      object-fit: cover;
+    }
+  }
+  body, html {
+    overflow-x: hidden;
+  }
+  @media (max-width: 768px) {
+    .turnkey_section {
+      height: auto; /* remove fixed height on mobile */
+      border-radius: 100px 0 100px 0;
+    }
+  
+    .turnkey_section .overlay {
+      border-radius: 100px 0 100px 0;
+    }
+  
+    .turnkey_section .card img {
+      height: 200px;
+      object-fit: cover;
+    }
+  
+    .turnkey_section .p-4 {
+      padding: 1.5rem !important;
+    }
+  
+    .turnkey_section h1 {
+      font-size: 1.5rem;
+    }
+  
+    .turnkey_section p {
+      font-size: 1rem;
+    }
+  }  
+  /* Responsive for smaller screens */
+  @media (max-width: 768px) {
+    .carousel-item h3 {
+        font-size: 1.25rem;
+    }
+
+    .carousel-item p {
+        font-size: 0.9rem;
+    }
+
+    .detail-box {
+        text-align: center;
+        padding: 15px;
+    }
+
+    .carousel-inner {
+        padding: 15px;
+    }
+
+    .carousel-item img {
+        max-height: 250px; /* Resize the image for smaller screens */
+        object-fit: cover; /* Ensure the image covers the area */
+    }
+
+    .btn-box {
+        text-align: center;
+    }
+
+    .btn1 {
+        font-size: 1rem;
+    }
+}
+
+/* Larger screens (Desktop and up) */
+@media (min-width: 992px) {
+    .carousel-item img {
+        height: auto;
+    }
+}
+
