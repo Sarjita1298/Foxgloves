@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>FoxGloves Manifold Services & Securities PVt. LTD.</title>
+  <link rel="icon" href="frontend/images/Foxgloves.jpg" type="image/x-icon">
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="frontend/css/bootstrap.css" />
