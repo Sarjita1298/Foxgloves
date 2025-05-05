@@ -53,8 +53,8 @@
   
  
   <div class="service-carousel owl-carousel">
-        <div class="col-md-2 col-lg-10">
-          <div class="box">
+        <div class="col-md-4 col-lg-10">
+          <div class="box margin-left:10px">
             <div class="img-box">
               <img src="frontend/images/newone.png" alt="Facility Management Service">
             </div>
@@ -71,7 +71,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-2 col-lg-10">
+        <div class="col-md-4 col-lg-10">
           <div class="box">
             <div class="img-box">
               <img src="frontend/images/newone1.png" alt="Mechanized Housekeeping for Industries">
@@ -89,7 +89,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-2 col-lg-10">
+        <div class="col-md-4 col-lg-10">
           <div class="box">
             <div class="img-box">
               <img src="frontend/images/newone2.png" alt="Security Services for Commercial Premises">
@@ -107,7 +107,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-2 col-lg-10">
+        <div class="col-md-4 col-lg-10">
           <div class="box">
             <div class="img-box">
               <img src="frontend/images/newone3.png" alt="Catering and Canteen Services">
@@ -125,7 +125,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-2 col-lg-10">
+        <div class="col-md-4 col-lg-10">
           <div class="box">
             <div class="img-box">
               <img src="frontend/images/newone4.png" alt="Guest House Management">
@@ -143,7 +143,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-2 col-lg-10">
+        <div class="col-md-4 col-lg-10">
           <div class="box">
             <div class="img-box">
               <img src="frontend/images/newone5.png" alt="Event Management Security">
@@ -161,7 +161,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-2 col-lg-10">
+        <div class="col-md-4 col-lg-10">
           <div class="box">
             <div class="img-box">
               <img src="frontend/images/newone6.png"  alt="Courier and Escort Services">
@@ -179,7 +179,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-2 col-lg-10">
+        <div class="col-md-4 col-lg-10">
           <div class="box">
             <div class="img-box">
               <img src="frontend/images/newone7.png" alt="Security Gadget Installation">
@@ -197,7 +197,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-2 col-lg-10">
+        <div class="col-md-4 col-lg-10">
           <div class="box">
             <div class="img-box">
               <img src="frontend/images/newone8.png" alt="Employment Verification Services">
@@ -215,7 +215,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-2 col-lg-10">
+        <div class="col-md-4 col-lg-10">
           <div class="box">
             <div class="img-box">
               <img src="frontend/images/newone9.png" alt="Temporary Staffing Solutions">
@@ -233,7 +233,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-2 col-lg-10">
+        <div class="col-md-4 col-lg-10">
           <div class="box">
             <div class="img-box">
               <img src="frontend/images/newone10.png" alt="Permanent Staffing Solutions">
@@ -251,7 +251,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-2 col-lg-10">
+        <div class="col-md-4 col-lg-10">
           <div class="box">
             <div class="img-box">
               <img src="frontend/images/newone11.png" alt="Turnkey Project Execution">
@@ -269,10 +269,10 @@
             </div>
           </div>
         </div>
-        <div class="col-md-2 col-lg-10">
+        <div class="col-md-4 col-lg-10">
           <div class="box">
             <div class="img-box">
-              <img src="frontend/images/newone.png" alt="Survey Services and Compliance">
+              <img src="frontend/images/newone12.png" alt="Survey Services and Compliance">
             </div>
             <div class="detail-box">
               <h5 class="text-dark fs-7">
@@ -306,15 +306,19 @@
 
 <script>
   $(document).ready(function(){
-    $('.owl-carousel').owlCarousel({
-      loop:true,
-      margin:10,
-      nav:true,
-      items:1, // or change to items:3 for multi-slide
-      autoplay:true,
-      autoplayTimeout:3000,
-      autoplayHoverPause:true
-    });
+    $('.service-carousel').owlCarousel({
+  loop: true,
+  margin: 30,
+  nav: true,
+  dots: true,
+  autoplay: true,
+  autoplayTimeout: 3000,
+  responsive: {
+    0: { items: 1 },
+    768: { items: 2 },
+    992: { items: 3 }
+  }
+});
   });
 </script>
 
@@ -395,7 +399,7 @@
 <!-- end case section -->
 
 <!-- client section -->
-<section class="client_section">
+{{-- <section class="client_section">
   <div class="container">
     <div class="heading_container heading_center">
       <h1>Our Client Support</h1>
@@ -417,7 +421,7 @@
                       <h2 >Our Client Support</h2>
                     </div>
                     {{-- <i class="fa fa-quote-left" aria-hidden="true"></i> --}}
-                  </div>
+                  {{-- </div>
                   <a href="client_operation">
                     <span style="color: #ffffff;">Read More</span>
                     <i class="fa fa-long-arrow-right" aria-hidden="true" style="color:#0b0a0a;"></i>
@@ -430,7 +434,7 @@
       </div><!-- /.carousel-item -->
     </div>
   </div>
-</section>
+</section> --}} 
 <!-- end client section -->
 
 

@@ -59,7 +59,7 @@
     </div>
   </section>
 
-  <section class="industries-section" style="background: url('{{ asset('frontend/images/guest.png') }}') no-repeat center center; background-size: cover; border-radius: 200px 0 200px 0; ">
+  <section class="industries-section" style="background: url('{{ asset('frontend/images/guest.png') }}') no-repeat center center; background-size: cover; over-flow:hidden; border-radius: 210px 0 210px 0; ">
     <div class="industries-box">
         <h2>Industries We Serve</h2>
         <ul class="industries-list">

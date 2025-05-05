@@ -124,7 +124,7 @@ a:focus {
 
 .brand-gloves {
   font-weight: bold;
-  color: #ee8908;
+  color: #ff6600;
   font-size: 38px;
 }
 
@@ -262,18 +262,18 @@ a:focus {
 }
 
 .quote_btn-container a:hover {
-  color: #f8842b;
+  color: #ff6600;
 }
 
 .quote_btn-container .quote_btn {
   display: inline-block;
   padding: 5px 25px;
-  background-color: #f8842b;
+  background-color: #ff6600;
   color: #ffffff;
   border-radius: 5px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  border: 1px solid #f8842b;
+  border: 1px solid #ff6600;
 }
 
 .quote_btn-container .quote_btn:hover {
@@ -328,22 +328,25 @@ a:focus {
         padding: 10px 20px;
         font-size: 1rem;
         color: white;
-        background-color: #007bff;
+        background-color: #ff6600;
         text-decoration: none;
         border-radius: 5px;
     }
-
+/* === Base Styles === */
 .slider_section .carousel-item {
   height: 100vh;
   background-color: #7f858f;
   border-bottom-right-radius: 300px;
+  position: relative;
+  overflow: hidden;
 }
-
 
 .slider_section .carousel-item img {
   width: 100%;
   height: 100%;
-  object-fit: cover; 
+  object-fit: cover;
+  z-index: 1;
+  position: relative;
 }
 
 .slider_section .detail-box {
@@ -351,9 +354,10 @@ a:focus {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white; 
+  color: white;
   text-align: center;
   z-index: 10;
+  padding: 20px;
 }
 
 .slider_section .detail-box h1 {
@@ -365,17 +369,17 @@ a:focus {
 .slider_section .detail-box p {
   font-size: 1.2rem;
   margin-bottom: 30px;
-  color:#ffffff
+  color: #ffffff;
 }
-
 
 .slider_section .btn-box {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
-.slider_section .btn1 {
-  padding: 10px;
+/* .slider_section .btn1 {
+  padding: 10px 20px;
   background-color: #ff6600;
   color: white;
   text-transform: uppercase;
@@ -384,6 +388,7 @@ a:focus {
   font-weight: bold;
   transition: background-color 0.3s ease, transform 0.3s ease;
   display: inline-block;
+  font-size: 1rem;
 }
 
 .slider_section .btn1:hover {
@@ -391,20 +396,17 @@ a:focus {
   transform: scale(1.05);
 }
 
-
-
 /* Carousel Indicators */
-.slider_section .carousel-indicators {
-  position: absolute; 
+/* .slider_section .carousel-indicators {
+  position: absolute;
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  margin: 0;
-  margin-top: 0px;
-  z-index: 10;   
-  display: flex; 
+  z-index: 10;
+  display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 
 .slider_section .carousel-indicators li {
@@ -419,7 +421,7 @@ a:focus {
   width: 23px;
   height: 23px;
   background-color: #f8842b;
-}  
+}  */
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -440,6 +442,7 @@ a:focus {
   border-radius: 10px;
   width: 90%;
   max-width: 800px;
+  justify-content: center;
 }
 
 .service_section {
@@ -469,6 +472,7 @@ a:focus {
   transition: none;
   height: 250px;
   width:200px;
+  justify-content: center;
 }
 
 .service_section .box::before {
@@ -546,6 +550,8 @@ a:focus {
           transform: scale(5);
   background-color: #ff782a;
   transition: none !important;
+  justify-content: center;
+
 
 }
 
@@ -583,6 +589,22 @@ a:focus {
   color: #ffffff;
   -webkit-transform: none;
           transform: none;
+}
+
+.carousel-item.active .container > .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Center the card */
+.carousel-item .col-md-4, 
+.carousel-item .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .about_section {
@@ -1211,20 +1233,22 @@ body {
   margin:0px;
   padding:20px;
   background-size: cover;
-  min-height: 90vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 .industries-box {
   background: rgba(0, 0, 0, 0.5);
   /* backdrop-filter: blur(8px); */
-  border-radius: 16px;
+  border-radius: 20px;
   padding: 35px;
   max-width: 780px;
   width: 80%;
   box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  overflow: hidden;
 }
 
 .industries-box h2 {

@@ -38,9 +38,9 @@
     overflow: hidden; /* Ensures image and text stay inside the box */
     transition: transform 0.3s ease; /* Smooth transition for hover effects */
   }
-  
+ 
   .box:hover {
-    transform: translateY(-10px); /* Slightly lift the box on hover */
+    transform: translateY(-5px); /* Slightly lift the box on hover */
   }
   
   .img-box img {
@@ -62,12 +62,17 @@
     text-align: center;
     
   }
-  
+  .owl-carousel .owl-item img {
+    margin: 0 auto;
+    display: block;
+    
+}
+ 
   @media screen and (max-width: 768px) {
     /* For mobile devices */
     .service {
       grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjusting column size on small screens */
-    }
+      justify-content: center !important;  }
   
     .heading_container h2 {
       font-size: 28px; /* Smaller heading font on mobile */
@@ -77,4 +82,5 @@
       font-size: 16px; /* Smaller text inside boxes on mobile */
     }
   }
+
   
