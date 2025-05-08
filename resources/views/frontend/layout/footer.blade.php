@@ -67,19 +67,21 @@
                 Address
               </h4>
               <div class="contact_link_box">
-                <a href="contact">
-                  <i class="fa fa-map-marker-alt" aria-hidden="true"></i>
+                <a href="https://www.google.com/maps?q=6303,+Block-06,+Soumya+Parklands,+Awadhpuri,+Bhopal+(M.P.)+462022" 
+                    target="_blank" 
+                    style="text-decoration: none;">
+                   <i class="fa fa-map-marker-alt" aria-hidden="true"></i>
                   <span>
                     Location : 6303, Block-06, Soumya Parklands, Awadhpuri, Bhopal (M.P.) – 462022
                   </span>
                 </a>
-                <a href="contact">
+                <a href="tel:+919424023942" style="text-decoration: none;">
                   <i class="fa fa-phone-alt" aria-hidden="true"></i>
                   <span>
                     Phone: +91 94240 23942                 
                   </span>
                 </a>
-                <a href="contact">
+                <a href="mailto:info@foxglovesindia.com" style="text-decoration: none;">
                   <i class="fa fa-envelope" aria-hidden="true"></i>
                   <span>
                     Email: info@foxglovesindia.com
@@ -88,8 +90,14 @@
               </div>
             </div>
             <div class="info_social">
+             <a href="https://wa.me/919424023942" target="_blank" style="text-decoration: none;">
+                <i class="fab fa-whatsapp"></i>
+              </a>
               <a href="contact">
-                <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://twitter.com/yourprofile" target="_blank" style="text-decoration: none;">
+                <i class="fab fa-x-twitter"></i>
               </a>
               <a href="contact">
                 <i class="fab fa-twitter" aria-hidden="true"></i>
@@ -100,8 +108,7 @@
               <a href="contact">
                 <i class="fab fa-instagram" aria-hidden="true"></i>
               </a>
-            </div>
-            
+            </div>            
           </div>
         </div>
       </div>
