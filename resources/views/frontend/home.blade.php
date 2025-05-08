@@ -54,7 +54,7 @@
  
   <div class="service-carousel owl-carousel">
         <div class="col-md-4 col-lg-10">
-          <div class="box margin-left:10px">
+          <div class="box margin-left:5px">
             <div class="img-box">
               <img src="frontend/images/newone.png" alt="Facility Management Service">
             </div>

@@ -14,7 +14,7 @@
       <div class="row justify-content-center">
         <div class="col-12 col-sm-6 col-md-4 mb-4">
           <div class="card text-dark bg-white shadow-sm h-100">
-            <img src="{{ asset('frontend/images/newone.png') }}" class="card-img-top" alt="Staffing Solution 1">
+            <img src="{{ asset('frontend/images/expertstaffing.png') }}" class="card-img-top" alt="Staffing Solution 1">
             <div class="card-body">
               <h5 class="card-title text-dark">Expert Staffing</h5>
               <p class="card-text text-dark">We connect you with industry experts to ensure project success.</p>
@@ -23,7 +23,7 @@
         </div>
         <div class="col-md-4">
           <div class="card text-dark bg-white shadow-sm">
-            <img src="{{ asset('frontend/images/newone1.png') }}" class="card-img-top" alt="Staffing Solution 2">
+            <img src="{{ asset('frontend/images/Tailored Solutions.png') }}" class="card-img-top" alt="Staffing Solution 2">
             <div class="card-body">
               <h5 class="card-title text-dark">Tailored Solutions</h5>
               <p class="card-text text-dark">Customized staffing solutions to meet your specific project requirements.</p>
@@ -57,7 +57,7 @@
       <div class="row justify-content-center">
         <div class="col-md-4 mb-4">
           <div class="card text-dark bg-white h-100">
-            <img src="{{ asset('frontend/images/newone3.png') }}" class="card-img-top" alt="Turnkey Project 1">
+            <img src="{{ asset('frontend/images/Full-Service Management.png') }}" class="card-img-top" alt="Turnkey Project 1">
             <div class="card-body">
               <h5 class="card-title text-dark">Full-Service Management</h5>
               <p class="card-text text-dark">We handle every aspect of your project for seamless execution.</p>
@@ -75,7 +75,7 @@
         </div>
         <div class="col-md-4 mb-4">
           <div class="card text-dark bg-white h-100">
-            <img src="{{ asset('frontend/images/newone9.png') }}" class="card-img-top" alt="Turnkey Project 3">
+            <img src="{{ asset('frontend/images/Timely Delivery.png') }}" class="card-img-top" alt="Turnkey Project 3">
             <div class="card-body">
               <h5 class="card-title text-dark" >Timely Delivery</h5>
               <p class="card-text text-dark">Commitment to delivering projects on time and within budget.</p>

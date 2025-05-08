@@ -7,7 +7,7 @@ body {
 }
 
 .layout_padding {
-  padding: 90px 0;
+  padding: 0px 0;
 }
 
 .layout_margin {
@@ -307,6 +307,11 @@ a:focus {
 
     .carousel-inner {
         max-width: 100%;
+        position:relative;
+        text-align: center;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 
     .detail-box {
@@ -641,7 +646,7 @@ a:focus {
   position: relative;
   width: fit-content;
   margin-left: auto;        /* move to right */
-  top: -40px;               /* move upward */
+  top: -7px;               /* move upward */
   position: relative;       /* required for 'top' to work */
 }
 
@@ -656,7 +661,7 @@ a:focus {
 .about_section .detail-box p {
   color: #ffffff;
   position: relative;
-  z-index: 2;
+  z-index: 4;
   margin-top: 10px;
 }
 
@@ -670,7 +675,7 @@ a:focus {
   border: 1px solid #f8842b;
   margin-top: 15px;
   position: relative;
-  z-index: 2;
+  z-index: 4;
 }
 
 .about_section .detail-box a:hover {
@@ -929,8 +934,8 @@ a:focus {
 .footer_container {
   background-color:  #ecf0f8;
   color: #ea580a;
-  border-radius: 350px 0 0 0;
-  padding-top: 145px;
+  border-radius: 250px 0 0 0;
+  padding-top: 40px;
   margin-top: 40px;
 }
 
@@ -1063,7 +1068,7 @@ a:focus {
 /* footer section*/
 .footer_section {
   text-align: center;
-  padding: 10px 0;
+  padding: 0px 0;
   margin: 0;
 }
 

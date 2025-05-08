@@ -16,7 +16,7 @@
   
  
   <div class="service ">
-        <div class="col-md-4 col-lg-4">
+        <div class="col-md-4 col-lg-10">
           <div class="box">
             <div class="img-box">
               <img src="frontend/images/newone.png" alt="Facility Management Service">
@@ -29,7 +29,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-lg-4">
+        <div class="col-md-4 col-lg-10">
           <div class="box">
             <div class="img-box">
               <img src="frontend/images/newone1.png" alt="Mechanized Housekeeping for Industries">
@@ -42,7 +42,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-lg-4">
+        <div class="col-md-4 col-lg-10">
           <div class="box">
             <div class="img-box">
               <img src="frontend/images/newone2.png" alt="Security Services for Commercial Premises">
@@ -55,7 +55,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-lg-4">
+        <div class="col-md-4 col-lg-10">
           <div class="box">
             <div class="img-box">
               <img src="frontend/images/newone3.png" alt="Catering and Canteen Services">
@@ -70,7 +70,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-lg-4">
+        <div class="col-md-4 col-lg-10">
           <div class="box">
             <div class="img-box">
               <img src="frontend/images/newone4.png" alt="Guest House Management">
@@ -83,7 +83,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-lg-4">
+        <div class="col-md-4 col-lg-10">
           <div class="box">
             <div class="img-box">
               <img src="frontend/images/newone5.png" alt="Event Management Security">
@@ -96,7 +96,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-lg-4">
+        <div class="col-md-4 col-lg-10">
           <div class="box">
             <div class="img-box">
               <img src="frontend/images/newone6.png"  alt="Courier and Escort Services">
@@ -109,7 +109,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-lg-4">
+        <div class="col-md-4 col-lg-10">
           <div class="box">
             <div class="img-box">
               <img src="frontend/images/newone7.png" alt="Security Gadget Installation">
@@ -122,7 +122,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-lg-4">
+        <div class="col-md-4 col-lg-10">
           <div class="box">
             <div class="img-box">
               <img src="frontend/images/newone8.png" alt="Employment Verification Services">
@@ -135,7 +135,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-lg-4">
+        <div class="col-md-4 col-lg-10">
           <div class="box">
             <div class="img-box">
               <img src="frontend/images/newone9.png" alt="Temporary Staffing Solutions">
@@ -148,7 +148,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-lg-4">
+        <div class="col-md-4 col-lg-10">
           <div class="box">
             <div class="img-box">
               <img src="frontend/images/newone10.png" alt="Permanent Staffing Solutions">
@@ -161,7 +161,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-lg-4">
+        <div class="col-md-4 col-lg-10">
           <div class="box">
             <div class="img-box">
               <img src="frontend/images/newone11.png" alt="Turnkey Project Execution">
@@ -173,7 +173,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-lg-4">
+        <div class="col-md-4 col-lg-10">
           <div class="box">
             <div class="img-box">
               <img src="frontend/images/newone12.png" alt="Survey Services and Compliance">
