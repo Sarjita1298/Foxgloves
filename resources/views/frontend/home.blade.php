@@ -304,23 +304,7 @@
  
   
 
-<script>
-  $(document).ready(function(){
-    $('.service-carousel').owlCarousel({
-  loop: true,
-  margin: 30,
-  nav: true,
-  dots: true,
-  autoplay: true,
-  autoplayTimeout: 3000,
-  responsive: {
-    0: { items: 1 },
-    768: { items: 2 },
-    992: { items: 3 }
-  }
-});
-  });
-</script>
+
 
 <!-- end service section -->
 
@@ -374,7 +358,8 @@
           'para' => 'Our professional catering and canteen services are designed to ensure hygienic, nutritious,and timely meal delivery for employees and guests.',
           'link' => 'contact'
         ]
-      ] as $case)
+      ]
+       as $case)
       <div class="col-md-6">
         <div class="box">
           <div class="img-box">
@@ -397,45 +382,24 @@
   </div>
 </section>
 <!-- end case section -->
+@endsection
 
-<!-- client section -->
-{{-- <section class="client_section">
-  <div class="container">
-    <div class="heading_container heading_center">
-      <h1>Our Client Support</h1>
-    </div>
-  </div>
-  <div id="customCarousel2" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-10 mx-auto">
-              <div class="box">
-                <div class="img-box">
-                  <img src="{{ asset('frontend/images/guest1.png') }}" alt="">
-                </div>
-                <div class="detail-box">
-                  <div class="client_info">
-                    <div class="client_name">
-                      <h2 >Our Client Support</h2>
-                    </div>
-                    {{-- <i class="fa fa-quote-left" aria-hidden="true"></i> --}}
-                  {{-- </div>
-                  <a href="client_operation">
-                    <span style="color: #ffffff;">Read More</span>
-                    <i class="fa fa-long-arrow-right" aria-hidden="true" style="color:#0b0a0a;"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div><!-- /.carousel-item -->
-    </div>
-  </div>
-</section> --}} 
-<!-- end client section -->
-
-
+@section('scripts')
+<script>
+  $(document).ready(function(){
+    $('.service-carousel').owlCarousel({
+  loop: true,
+  margin: 30,
+  nav: true,
+  dots: true,
+  autoplay: true,
+  autoplayTimeout: 3000,
+  responsive: {
+    0: { items: 1 },
+    768: { items: 2 },
+    992: { items: 3 }
+  }
+});
+  });
+</script>
 @endsection

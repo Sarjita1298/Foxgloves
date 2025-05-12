@@ -9,6 +9,7 @@ use App\Http\Controllers\StateController;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/hello',[ HomeController::class, 'hello'] )->name('hello');
 
 Route::get('/home',[ HomeController::class, 'index'] )->name('home');
 Route::get('/about',[ HomeController::class, 'about'] )->name('about');

@@ -133,5 +133,5 @@
       </div>
     </footer>
     <!-- footer section -->
-  </div>
+</div>
   

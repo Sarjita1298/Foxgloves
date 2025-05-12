@@ -11,6 +11,11 @@ use App\Mail\SubscribeConfirmationMail;
 
 class HomeController extends Controller
 {
+    public function hello()
+    {
+        return view("frontend.master");
+    }
+    
     public function index()
     {
         return view("frontend.home");
