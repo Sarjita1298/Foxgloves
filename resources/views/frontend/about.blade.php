@@ -85,8 +85,8 @@
   </section>
 
 <!-- BOOTSTRAP SLIDER START -->
-<section class="slider_section my-5" style="border-radius: clamp(80px, 15vw, 270px) 0 clamp(80px, 15vw, 270px) 0;">
-  <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.5); backdrop-filter: blur(2px); z-index: 4; pointer-events: none; border-radius: clamp(80px, 15vw, 270px) 0 clamp(80px, 15vw, 270px) 0;" ></div>
+<section class="slider_section my-5" style="border-radius: clamp(80px, 15vw, 250px) 0; overflow: hidden;">
+  <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.5); backdrop-filter: blur(4px); z-index: 1; pointer-events: none; overflow: hidden; border-radius: clamp(80px, 15vw, 250px) 0;"> </div>
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1500">
     <ol class="carousel-indicators">
       <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>

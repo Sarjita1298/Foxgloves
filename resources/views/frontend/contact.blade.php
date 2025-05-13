@@ -12,9 +12,9 @@
       <p class="text-center text-dark">Providing skilled professionals for your project needs.</p>
 
       <div class="row justify-content-center">
-        <div class="col-12 col-sm-6 col-md-4 mb-4">
-          <div class="card text-dark bg-white shadow-sm h-100">
-            <img src="{{ asset('frontend/images/expertstaffing.png') }}" class="card-img-top" alt="Staffing Solution 1">
+        <div class="col-md-4">
+          <div class="card text-dark bg-white shadow-sm">
+            <img src="{{ asset('frontend/images/Expert Staffing.png') }}" class="card-img-top" alt="Staffing Solution 1">
             <div class="card-body">
               <h5 class="card-title text-dark">Expert Staffing</h5>
               <p class="card-text text-dark">We connect you with industry experts to ensure project success.</p>
@@ -33,7 +33,7 @@
         
         <div class="col-md-4">
           <div class="card text-dark bg-white shadow-sm">
-            <img src="{{ asset('frontend/images/newone5.png') }}" class="card-img-top" alt="Staffing Solution 3">
+            <img src="{{ asset('frontend/images/Ongoing Support.png') }}" class="card-img-top" alt="Staffing Solution 3">
             <div class="card-body">
               <h5 class="card-title text-dark">Ongoing Support</h5>
               <p class="card-text text-dark">Continuous support and training for our staff to ensure quality performance.</p>
@@ -66,7 +66,7 @@
         </div>
         <div class="col-md-4 mb-4">
           <div class="card text-dark bg-white h-100">
-            <img src="{{ asset('frontend/images/newone4.png') }}" class="card-img-top" alt="Turnkey Project 2">
+            <img src="{{ asset('frontend/images/Quality Assurance.png') }}" class="card-img-top" alt="Turnkey Project 2">
             <div class="card-body">
               <h5 class="card-title text-dark">Quality Assurance</h5>
               <p class="card-text text-dark">Ensuring high standards and quality control throughout the project lifecycle.</p>
@@ -130,15 +130,17 @@
         </div>
       </div>
 
-  <div class="col-md-6 col-lg-7 px-0">
-  <div class="map_container">
+ <div class="col-md-6 col-lg-7 px-0">
+  <div class="map_container mb-5"> 
     <div class="map-gap" style="width: 95%; height: 500px;">
       <iframe
         src="https://www.google.com/maps?q=6303,+Block-06,+Soumya+Parklands,+Awadhpuri,+Bhopal+(M.P.)+–+462022&output=embed"
-        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
       </iframe>
     </div>
   </div>
 </div>
+
 
 @endsection
