@@ -168,7 +168,7 @@
             </div>
             <div class="detail-box">
               <h5 class="text-dark fs-7">
-                 Courier & Escort ...       
+                 Courier & Escort Services    
               </h5>
               <a href="service">
                 <span>
@@ -204,7 +204,7 @@
             </div>
             <div class="detail-box">
               <h5 class="text-dark fs-7">
-                Pre-employment 
+                Pre/Post Employment 
               </h5>
               <a href="service">
                 <span>
