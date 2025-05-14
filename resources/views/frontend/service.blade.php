@@ -7,7 +7,7 @@
  <!-- service section -->
  <section class="service_section layout_padding" style="background-image: url('{{ asset('frontend/images/.png') }}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
   <div class="container ">
-      <div class="heading_container">
+      <div class="heading_container py-5">
         <h2>
           Our Services
         </h2>
