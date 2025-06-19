@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: foxgloves-laravel
+    env: docker
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
+    plan: free
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: APP_KEY
+        value: base64:xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+      - key: APP_DEBUG
+        value: false
+      - key: APP_URL
+        value: https://foxgloves-laravel.onrender.com
+      - key: DB_CONNECTION
+        value: sqlite
